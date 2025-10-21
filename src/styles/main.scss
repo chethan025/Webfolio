@@ -1,0 +1,45 @@
+/* color */
+$bgclr : #000;
+$color: #fff;
+$navbg: #2b2b2b;
+
+
+/* padding */
+$btnpdn1: 0.7rem 3rem;
+
+
+/* margins */
+$mrgn1: .4rem;
+
+
+/* borders */
+$btnbrdr1: 1px solid $color;
+$btnbdrds1: 24px;
+$btnbdrds2: 22px;
+
+
+
+
+/* fonts */
+$font-montserrat: 'Montserrat', sans-serif;
+$font-conquera: 'Conquera';
+
+
+
+
+*{
+    box-sizing: border-box;;
+}
+
+body{
+    background-color: $bgclr;
+    color: $color;
+    margin: 1rem;
+}
+.section{
+    height:50vw;
+    margin: 0 2rem 5rem;
+    padding: 1rem 0;
+    font-family: $font-montserrat;
+
+}

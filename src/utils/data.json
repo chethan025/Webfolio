@@ -1,0 +1,129 @@
+{
+    "personal_detailes": {
+        "name": "Chethan S",
+        "email": "chethans0250@gmail.com",
+        "dob": "25-feb-2004",
+        "age": 21,
+        "address": "Bangalore, India",
+        "phone": "+91 6363993184"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "I am a passionate software developer with a keen interest in building scalable web applications and exploring new technologies. I love to solve complex problems and continuously learn to improve my skills.",
+        "bio": "I am a software developer with a strong foundation in web development and a passion for creating innovative solutions. I have experience in various programming languages and frameworks, and I am always eager to learn new technologies. My goal is to contribute to impactful projects and collaborate with like-minded individuals.",
+        "interests": [
+            "Shopify Development",
+            "Full Stack Development",
+            "Database Management",
+            "Web Development"
+        ],
+        "hobbies": [
+            "Coding",
+            "Reading Tech Blogs",
+            "Playing Video Games",
+            "Traveling"
+        ],
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Python",
+            "Django",
+            "HTML",
+            "CSS"
+        ],
+        "resume": {
+            "url": "#resume",
+            "text": "View Resume"
+        }
+    },
+    "contacts": {
+        "github": {
+            "username": "chethan025",
+            "url": "https://githun.com/chethan025",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        },
+        "linkedin": {
+            "username": "chethan-s",
+            "url": "https://www.linkedin.com/in/chethan-s/",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+        },
+        "twitter": {
+            "username": "chethan025",
+            "url": "https://twitter.com/chethan025",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+        },
+        "instagram": {
+            "username": "chethan025",
+            "url": "https://www.instagram.com/chethan025/",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg"
+        },
+        "whatsapp": {
+            "username": "+91 6363993184",
+            "url": "https://wa.me/916363993184",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg"
+        },
+        "email": {
+            "username": "chethans0250@gmail.com",
+            "url": "mailto:chethans0250@gmail.com"
+        }
+    },
+    "projects": [
+        {
+            "title": "Portfolio Website",
+            "description": "A personal portfolio website to showcase my projects and skills.",
+            "url": "https://example.com/portfolio",
+            "image": "https://example.com/images/portfolio.png"
+        },
+        {
+            "title": "E-commerce Platform",
+            "description": "A full-stack e-commerce application built with React and Node.js.",
+            "url": "https://example.com/ecommerce",
+            "image": "https://example.com/images/ecommerce.png"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development"
+        },
+        {
+            "title": "JavaScript Algorithms and Data Structures",
+            "issuer": "freeCodeCamp",
+            "date": "2022-12-10",
+            "url": "https://example.com/certifications/javascript-algorithms"
+        }
+    ],
+    "education": [
+        {
+            "type": "degree",
+            "course": "Bachelor of Computer Applications (BCA)",
+            "institution": "Bangalore University",
+            "year": "2024",
+            "report_card-sem1": "https://example.com/education/btech-computer-science",
+            "report_card-sem1.2": "https://example.com/education/btech-computer-science-sem1-2",
+            "report_card-sem2": "https://example.com/education/btech-computer-science-sem2",
+            "report_card-sem2.2": "https://example.com/education/btech-computer-science-sem2-2",
+            "report_card-sem3": "https://example.com/education/btech-computer-science-sem3",
+            "report_card-sem4": "https://example.com/education/btech-computer-science-sem4",
+            "report_card-sem5": "https://example.com/education/btech-computer-science-sem5",
+            "report_card-sem6": "https://example.com/education/btech-computer-science-sem6"
+        },
+        {
+            "type": "PUC",
+            "course": "Commrerce(CEBA - Computer Science, Economics, Business Studies, Accountancy)",
+            "institution": "New Baldwin Institution",
+            "year": "2021",
+            "url": "https://example.com/education/diploma-web-development"
+        },
+        {
+            "type": "SSLC",
+            "course": "Secondary School Leaving Certificate",
+            "institution": "New Standard English School",
+            "year": "2019",
+            "url": "https://example.com/education/sslc"
+        }
+    ]
+}

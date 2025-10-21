@@ -1,0 +1,36 @@
+@use 'main';
+
+
+.navbar {
+    position: fixed;
+    width: calc(100% - 4rem);
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: main.$btnbdrds2;
+    transition: background-color 0.3s ease-in-out;
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: main.$color;
+        border: main.$btnbrdr1;
+        border-radius: main.$btnbdrds1;
+        padding: main.$btnpdn1;
+        margin: main.$mrgn1;
+        font-size: .8rem;
+    }
+
+    &.solid {
+        background-color: main.$navbg;
+        // position: sticky;
+    }
+}
+
+
