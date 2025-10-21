@@ -2,10 +2,17 @@
     display: grid;
 
 }
+.grd{
+    grid-auto-flow: column;
+}
 .about-container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+/* 
     grid-template-columns: repeat(4, 1fr) ;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-rows: repeat(2, 1fr); */
+    gap: .4rem;
     align-items: start;
     justify-items: center;
     text-align: center;
@@ -15,4 +22,28 @@
     background: #fff;
     color: #000;
     border-radius: 16px;
+    width: 100%;
+    height: 100%;
 }
+
+
+.github-contributions {
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 2rem;
+
+}
+
+.grdimg{
+    // width:18vw;
+    height: 7.5vw;
+}
+
+
+.Skills{
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+

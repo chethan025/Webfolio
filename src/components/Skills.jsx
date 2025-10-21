@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../utils/data.json'
+import '../styles/main-about.scss'
 
 export default function Skills() {
     return (

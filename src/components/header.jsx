@@ -20,7 +20,7 @@ export default function Header() {
             animateOn="view"
             speed={150}
             maxIterations={10}
-            characters="ABCD1234!?"
+            characters="10101011010011010"
             className="revealed"
             parentClassName="all-letters"
             encryptedClassName="encrypted"
