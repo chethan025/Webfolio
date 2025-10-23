@@ -1,3 +1,4 @@
+import { i } from "framer-motion/client";
 import React, { useEffect, useState } from "react";
 
 export default function GithubPinnedRepos({ usernames }) {
@@ -65,7 +66,7 @@ export default function GithubPinnedRepos({ usernames }) {
           <p className="text-xl font-semibold mb-4">
             Pinned Repositories
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>
+          <div className="" style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>
             {reposByUser[username].map((repo) => (
               <a
                 key={repo.url}
@@ -73,12 +74,13 @@ export default function GithubPinnedRepos({ usernames }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  border: "1px solid #ddd",
+                  // boxShadow: 'inset 0 0 0 3px #ddd',
                   borderRadius: 8,
                   padding: 12,
                   width: 220,
+                  backgroundColor: "#101411",
                   textDecoration: "none",
-                  color: "inherit",
+                  color: "#ddd",
                   transition: "transform 0.1s",
                 }}
                 onMouseEnter={(e) =>

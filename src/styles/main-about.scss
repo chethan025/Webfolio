@@ -5,8 +5,11 @@
 .grd{
     grid-auto-flow: column;
 }
+/* .grid > * {
+  min-width: 0;
+} */
 .about-container{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, 1fr);
     
 /* 
@@ -35,9 +38,20 @@
 
 }
 
+.gccc{
+    background-color: #232925;
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+.huuug{
+    background-color: #232925;
+    color: #fff;
+}
+
 .grdimg{
     // width:18vw;
-    height: 7.5vw;
+    height: 8.55vw;
 }
 
 

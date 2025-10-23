@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App mainappcontainer">
       <Navbar />
       <Header />
       <About />

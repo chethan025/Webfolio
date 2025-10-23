@@ -5,6 +5,14 @@ export default function GithubContributions() {
   const [year, setYear] = useState(new Date().getFullYear());
   const weekdays = ["Mon", "Wed", "Fri"];
 
+  // Dark mode mapping logic
+  const mapToDarkColor = (color) => {
+    const lightToDark = {
+      "#ebedf0": "#909692", // high
+    };
+    return lightToDark[color] || color; // fallback if GitHub changes palette
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       const from = `${year}-01-01T00:00:00Z`;
@@ -15,7 +23,6 @@ export default function GithubContributions() {
           user(login: "chethan025") {
             contributionsCollection(from: "${from}", to: "${to}") {
               contributionCalendar {
-                totalContributions
                 weeks {
                   contributionDays {
                     color
@@ -45,8 +52,18 @@ export default function GithubContributions() {
           return;
         }
 
+        // process color mapping BEFORE rendering
         const weeks =
-          data.data.user.contributionsCollection.contributionCalendar.weeks;
+          data.data.user.contributionsCollection.contributionCalendar.weeks.map(
+            (week) => ({
+              ...week,
+              contributionDays: week.contributionDays.map((day) => ({
+                ...day,
+                color: mapToDarkColor(day.color.replace("ff", "")), // strip alpha if present
+              })),
+            })
+          );
+
         setCalendar(weeks);
       } catch (err) {
         console.error("Fetch error:", err);
@@ -74,16 +91,18 @@ export default function GithubContributions() {
   const monthLabels = getMonthLabels();
 
   return (
-    <div className="p-4">
-      <h2 className="text-xl font-semibold mb-2">
-        GitHub Contributions ({year})
-      </h2>
-
-      {/* Year Selector */}
+    <div className="p-4 gccc" style={{ color: "#d1d1d1" }}>
       <select
         value={year}
         onChange={(e) => setYear(parseInt(e.target.value))}
-        style={{ marginBottom: 16, padding: 4 }}
+        style={{
+          marginBottom: 16,
+          padding: 4,
+          backgroundColor: "#0d1117",
+          color: "#c9d1d9",
+          border: "1px solid #30363d",
+          borderRadius: 4,
+        }}
       >
         {Array.from({ length: 5 }, (_, i) => new Date().getFullYear() - i).map(
           (y) => (
@@ -95,25 +114,23 @@ export default function GithubContributions() {
       </select>
 
       <div style={{ display: "flex", alignItems: "flex-start" }}>
-        {/* Weekday labels */}
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            marginRight: 4,
-            justifyContent: "space-between",
+            marginRight: 5,
+            justifyContent: "space-around",
             height: 12 * 7 + 6 * 6,
           }}
         >
           {weekdays.map((day, i) => (
-            <div key={i} style={{ fontSize: 10, color: "#666" }}>
+            <div key={i} style={{ fontSize: 10, color: "#E4EBE6" }}>
               {day}
             </div>
           ))}
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>
-          {/* Month labels */}
           <div style={{ display: "flex", marginBottom: 2, marginLeft: 14 }}>
             {calendar.map((_, i) => {
               const label = monthLabels.find((m) => m.index === i);
@@ -121,10 +138,11 @@ export default function GithubContributions() {
                 <div
                   key={i}
                   style={{
-                    width: 12 + 2,
+                    width: 14,
                     textAlign: "center",
                     fontSize: 10,
-                    color: "#666",
+                    margin: .5,
+                    color: "#E4EBE6",
                   }}
                 >
                   {label ? label.month : ""}
@@ -133,13 +151,9 @@ export default function GithubContributions() {
             })}
           </div>
 
-          {/* Contribution squares */}
           <div style={{ display: "flex" }}>
             {calendar.map((week, i) => (
-              <div
-                key={i}
-                style={{ display: "flex", flexDirection: "column" }}
-              >
+              <div key={i} style={{ display: "flex", flexDirection: "column" }}>
                 {week.contributionDays.map((day, j) => (
                   <div
                     key={j}
@@ -148,10 +162,10 @@ export default function GithubContributions() {
                       backgroundColor: day.color,
                       width: 12,
                       height: 12,
-                      margin: 1,
+                      margin: 1.5,
                       borderRadius: 2,
                     }}
-                  ></div>
+                  />
                 ))}
               </div>
             ))}

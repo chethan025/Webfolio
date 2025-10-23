@@ -2,6 +2,7 @@
 
 .webheader{
     grid-area: header;
+    
 }
 
 .intro{
@@ -20,11 +21,13 @@
     height: 100%;
     display: grid;
     justify-items: end;
+    align-items: end;
 }
 .resume-link{
     border: 2px solid #ffffff6b;
     border-radius: 28px;
-    width: 40%;
+    width: 41%;
+    height: 50%;
     margin: 2rem;
     padding: 2rem;
     text-decoration: none;
@@ -56,11 +59,12 @@
     grid-template-areas: 'header header'
                          'intro resume-link';
     font-family: main.$font-montserrat;
+    
 }
 
 .header-section h2{
     font-family: main.$font-conquera;
-    font-size: clamp(2rem, 10.5vw, 16.67rem);
+    font-size: clamp(2rem, 5.75vw, 16.67rem);
 
 }
 
