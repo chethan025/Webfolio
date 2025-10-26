@@ -1,20 +1,14 @@
+@use 'main';
+
 .grid{
     display: grid;
-
 }
 .grd{
     grid-auto-flow: column;
 }
-/* .grid > * {
-  min-width: 0;
-} */
 .about-container{
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, 1fr);
-    
-/* 
-    grid-template-columns: repeat(4, 1fr) ;
-    grid-template-rows: repeat(2, 1fr); */
     gap: .4rem;
     align-items: start;
     justify-items: center;
@@ -29,12 +23,12 @@
     height: 100%;
 }
 
-
 .github-contributions {
     grid-row: span 3 / span 3;
     grid-column-start: 2;
     grid-row-start: 1;
     padding: 2rem;
+    background:linear-gradient(180deg, #FFF 0%, #515050 162%);
 
 }
 
@@ -54,6 +48,22 @@
     height: 8.55vw;
 }
 
+
+.self-intro{
+    text-align: start;
+    padding:  1rem;
+    letter-spacing: 4.2px;
+
+    .about-header{
+        font-family: main.$font-Recepts;
+        font-size: 1.8rem;
+        margin: 1rem 0 ; 
+    }
+    .about-text{
+        letter-spacing: 0.8px;
+        line-height: 22px;
+    }
+}
 
 .Skills{
     grid-row: span 2 / span 2;

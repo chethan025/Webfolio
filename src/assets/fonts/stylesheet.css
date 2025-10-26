@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Conquera';
+    src: url('./conquera/Conquera-Bold.eot');
+    src: local('Conquera Bold'), local('Conquera-Bold'),
+        url('./conquera/Conquera-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Bold.woff2') format('woff2'),
+        url('./conquera/Conquera-Bold.woff') format('woff'),
+        url('./conquera/Conquera-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conquera';
+    src: url('./conquera/Conquera-Medium.eot');
+    src: local('Conquera Medium'), local('Conquera-Medium'),
+        url('./conquera/Conquera-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Medium.woff2') format('woff2'),
+        url('./conquera/Conquera-Medium.woff') format('woff'),
+        url('./conquera/Conquera-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conquera';
+    src: url('./conquera/Conquera-Heavy.eot');
+    src: local('Conquera Heavy'), local('Conquera-Heavy'),
+        url('./conquera/Conquera-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Heavy.woff2') format('woff2'),
+        url('./conquera/Conquera-Heavy.woff') format('woff'),
+        url('./conquera/Conquera-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conquera Fine';
+    src: url('./conquera/Conquera-Fine.eot');
+    src: local('Conquera Fine'), local('Conquera-Fine'),
+        url('./conquera/Conquera-Fine.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Fine.woff2') format('woff2'),
+        url('./conquera/Conquera-Fine.woff') format('woff'),
+        url('./conquera/Conquera-Fine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conquera';
+    src: url('./conquera/Conquera-Light.eot');
+    src: local('Conquera Light'), local('Conquera-Light'),
+        url('./conquera/Conquera-Light.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Light.woff2') format('woff2'),
+        url('./conquera/Conquera-Light.woff') format('woff'),
+        url('./conquera/Conquera-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conquera Inline';
+    src: url('./conquera/Conquera-Inline.eot');
+    src: local('Conquera Inline'), local('Conquera-Inline'),
+        url('./conquera/Conquera-Inline.eot?#iefix') format('embedded-opentype'),
+        url('./conquera/Conquera-Inline.woff2') format('woff2'),
+        url('./conquera/Conquera-Inline.woff') format('woff'),
+        url('./conquera/Conquera-Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Recepts NF W01 Regular';
+    src: url('./conquera/Conquera-Fine.eot');
+    src: local('Recepts NF W01 Regular'), local('Recepts NF W01 Regular'),
+       
+        url('./Recept\ nsfw\ 01/Recepts NF W01 Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

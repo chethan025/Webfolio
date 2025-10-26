@@ -40,8 +40,8 @@
     "contacts": {
         "github": {
             "username": "chethan025",
-            "url": "https://githun.com/chethan025",
-            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            "url": "https://github.com/chethan025",
+            "logo": "https://localhost:3000/src/assets/icons/github.svg"
         },
         "linkedin": {
             "username": "chethan-s",
