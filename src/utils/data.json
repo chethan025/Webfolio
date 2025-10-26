@@ -24,50 +24,208 @@
             "Traveling"
         ],
         "skills": [
-            "JavaScript",
-            "React",
-            "Node.js",
-            "Python",
-            "Django",
-            "HTML",
-            "CSS"
+            {
+                "name": "Shopify",
+                "description": "Experienced in developing and customizing Shopify e-commerce stores, including theme development, app integration, and performance optimization.",
+                "projects": [
+                    "E-commerce Store for Fashion Brand",
+                    "Custom Shopify Theme Development",
+                    "Shopify App Integration for Payment Gateway"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify.png",
+                "type": "software",
+                "skill_type": "tools"
+            },
+            {
+                "name": "Shopify Liquid",
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify-liquid.png",
+                "description": "Proficient in Shopify Liquid templating language for customizing Shopify themes and creating dynamic content.",
+                "projects": [ 
+                    "Custom Product Page with Liquid",
+                    "Dynamic Collection Page Development",
+                    "Liquid Scripting for Shopify Theme"
+                ],
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            
+            {
+                "name": "React",
+                "description": "Skilled in building responsive and interactive user interfaces using React.js, with experience in state management and component-based architecture.",
+                "projects": [
+                    "Personal Portfolio Website",
+                    "E-commerce Platform with React",
+                    "React Dashboard for Data Visualization"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/react.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "Node.js",
+                "description": "Experienced in server-side development with Node.js, including building RESTful APIs and handling backend logic.",
+                "projects": [   
+                    "RESTful API for E-commerce Application",
+                    "Real-time Chat Application with Node.js",
+                    "Backend Development for Inventory Management System"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "Express.js",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.githcub.io/Webfolio/src/assets/images/logo/express.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "MongoDB",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.githcub.io/Webfolio/src/assets/images/logo/mongodb.png",
+                "type": "software",
+                "skill_type": "tools"
+            },
+            {
+                "name": "Git",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.githcub.io/Webfolio/src/assets/images/logo/git.png",
+                "type": "software",
+                "skill_type": "tools"
+            },
+            {
+                "name": "GitHub",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.githcub.io/Webfolio/src/assets/images/logo/github.png",
+                "type": "software",
+                "skill_type": "tools"
+            },
+            {
+                "name": "HTML",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/html.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "CSS",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/css.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "SCSS",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.githcub.io/Webfolio/src/assets/images/logo/scss.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "JavaScript",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/javascript.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "Figma",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/figma.png",
+                "type": "software",
+                "skill_type": "tools"
+            },
+            {
+                "name": "PHP",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/php.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "MySQL",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mysql.png",
+                "type": "Lanquage",
+                "skill_type": "tools"
+            },
+            {
+                "name": "VS Code",
+                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "projects": [
+                    "jjdfsdb","jdhfsdbvsb"
+                ],
+                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Icons/vscode.png",
+                "type": "software",
+                "skill_type": "tools"
+            }
         ],
         "resume": {
             "url": "#resume",
             "text": "View Resume"
         }
     },
-    "contacts": {
-        "github": {
+    "contacts": [
+        {
+            "name": "Email",
+            "username": "chethans0250@gmail.com",
+            "url": "mailto:chethans0250@gmail.com",
+            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/gmail.svg"
+        },
+        {
+            "name": "GitHub",
             "username": "chethan025",
             "url": "https://github.com/chethan025",
             "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/github.svg"
         },
-        "linkedin": {
-            "username": "chethan-s",
-            "url": "https://www.linkedin.com/in/chethan-s/",
-            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-        },
-        "twitter": {
-            "username": "chethan025",
-            "url": "https://twitter.com/chethan025",
-            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
-        },
-        "instagram": {
-            "username": "chethan025",
-            "url": "https://www.instagram.com/chethan025/",
-            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg"
-        },
-        "whatsapp": {
+        {
+            "name": "WhatsApp",
             "username": "+91 6363993184",
             "url": "https://wa.me/916363993184",
-            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg"
+            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/whatsapp.svg"
         },
-        "email": {
-            "username": "chethans0250@gmail.com",
-            "url": "mailto:chethans0250@gmail.com"
+        {
+            "name": "LinkedIn",
+            "username": "chethan-s",
+            "url": "https://www.linkedin.com/in/chethan-s/",
+            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/linkedin.svg"
         }
-    },
+        
+    ],
     "projects": [
         {
             "title": "Portfolio Website",
@@ -98,7 +256,7 @@
     ],
     "education": [
         {
-            "type": "degree",
+            "skill_type": "degree",
             "course": "Bachelor of Computer Applications (BCA)",
             "institution": "Bangalore University",
             "year": "2024",
@@ -112,14 +270,14 @@
             "report_card-sem6": "https://example.com/education/btech-computer-science-sem6"
         },
         {
-            "type": "PUC",
+            "skill_type": "PUC",
             "course": "Commrerce(CEBA - Computer Science, Economics, Business Studies, Accountancy)",
             "institution": "New Baldwin Institution",
             "year": "2021",
             "url": "https://example.com/education/diploma-web-development"
         },
         {
-            "type": "SSLC",
+            "skill_type": "SSLC",
             "course": "Secondary School Leaving Certificate",
             "institution": "New Standard English School",
             "year": "2019",
