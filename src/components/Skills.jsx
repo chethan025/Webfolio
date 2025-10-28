@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import data from '../utils/data.json'
+import "../styles/main-about.scss";
 
 const skills = data.about.skills;
 
@@ -13,7 +14,7 @@ export default function SkillSection() {
     const rect = event.currentTarget.getBoundingClientRect();
     setSelectedSkill(skill);
     setDialogPos({
-      top: rect.top - 246, // adjust offset
+      top: rect.top - 10, // adjust offset
       left: rect.left + rect.width / 2,
     });
   };
@@ -35,13 +36,6 @@ export default function SkillSection() {
       <h2>Skills</h2>
       <div
         className="skills-container"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
-          gap: 16,
-          padding: 16,
-          position: "relative",
-        }}
         ref={containerRef}
       >
         
@@ -49,25 +43,13 @@ export default function SkillSection() {
           <button
             key={index}
             onClick={(e) => handleSkillClick(skill, e)}
-            style={{
-              background: "#111",
-              border: "1px solid #333",
-              borderRadius: 12,
-              padding: 16,
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              cursor: "pointer",
-              transition: "0.2s",
-              position: "relative",
-              color: "#fff",
-            }}
+            
             onMouseEnter={(e) =>
               (e.currentTarget.style.transform = "scale(1.05)")
             }
             onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
           >
-            <img src={skill.logo}  width={40} height={40} />
+            <img className="skill-logo" src={skill.logo} />
           </button>
         ))}
 
@@ -79,37 +61,23 @@ export default function SkillSection() {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
               transition={{ duration: 0.2 }}
+              className="skills-dropdown"
               style={{
-                position: "fixed",
                 top: dialogPos.top,
-                left: dialogPos.left,
-                transform: "translate(-50%, -100%)",
-                zIndex: 1000,
-                background: "#0d1117",
-                border: "1px solid #222",
-                color: "#fff",
-                borderRadius: 12,
-                padding: 20,
-                width: "22rem",
-                boxShadow: "0 8px 25px rgba(0,0,0,0.5)",
-                pointerEvents: "auto",
+                left: dialogPos.left
               }}
             >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  marginBottom: 12,
-                }}
-              >
-                <h3 style={{ fontSize: 18 }}>{selectedSkill.name}</h3>
+              <div className="skill-name">
+                <h3 className="skill-h3" style={{ fontSize: 18 }}>
+                  <img className="skill-logo"  src={selectedSkill.logo} />
+                  {selectedSkill.name}
+                </h3>
                 <button
                   onClick={() => setSelectedSkill(null)}
                   style={{
                     background: "none",
                     border: "none",
-                    color: "#aaa",
+                    color: "#929292",
                     fontSize: 18,
                     cursor: "pointer",
                   }}
@@ -120,21 +88,48 @@ export default function SkillSection() {
               <p
                 style={{
                   fontSize: 13,
-                  color: "#aaa",
+                  color: "#929292",
                   marginBottom: 12,
                   lineHeight: 1.4,
                 }}
               >
                 {selectedSkill.description}
               </p>
+              <p
+                style={{
+                  fontSize: 13,
+                  color: "#929292",
+                  marginBottom: 12,
+                  lineHeight: 1.4,
+                }}
+              >
+                Type: {selectedSkill.type}
+              </p>
+              <p
+                style={{
+                  fontSize: 13,
+                  color: "#929292",
+                  marginBottom: 12,
+                  lineHeight: 1.4,
+                }}
+              >
+                Skill type: {selectedSkill.skill_type}
+              </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                <span 
+                  style={{
+                    fontSize: 13,
+                    color: "#929292"
+                  }}
+                >Projects:</span>
                 {selectedSkill.projects.map((tag, i) => (
+                  
                   <span
                     key={i}
                     style={{
-                      background: "#1f6feb",
-                      color: "#fff",
-                      padding: "4px 8px",
+                      background: "#929292",
+                      color: "#000",
+                      padding: "6px 12px",
                       borderRadius: 6,
                       fontSize: 11,
                     }}

@@ -11,6 +11,7 @@
     background-color: transparent;
     border-radius: main.$btnbdrds2;
     transition: background-color 0.3s ease-in-out;
+    z-index: 1000000;
 
     ul {
         display: flex;
