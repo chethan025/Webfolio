@@ -14,7 +14,7 @@ export default function SkillSection() {
     const rect = event.currentTarget.getBoundingClientRect();
     setSelectedSkill(skill);
     setDialogPos({
-      top: rect.top - 10, // adjust offset
+      top: rect.top - 250, // adjust offset
       left: rect.left + rect.width / 2,
     });
   };

@@ -86,13 +86,12 @@
 
 .skills-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    padding: 16px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 26px;
+    padding: 28px;
     position: relative;
 
     button{
-
         background:#111;
         border: 1px solid #333;
         border-radius: 12px;
@@ -104,10 +103,11 @@
         transition: 0.2s;
         position: relative;
         color: #fff;
+        box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.25)
     }
     .skill-logo{
-        max-width: 38px;
-        max-height: 48px;
+        max-width: 28px;
+        max-height: 28px;
         width: auto;
         height: auto;
         margin: auto;
@@ -138,8 +138,8 @@
         }
     }
     .skill-logo{
-        max-width: 38px;
-        max-height: 38px;
+        max-width: 46px;
+        max-height: 46px;
         width: auto;
         height: auto;
         margin: 0 1rem;
