@@ -75,37 +75,39 @@ export const ProjectGrid = ({
   };
 
   return (
-    <div
-      ref={rootRef}
-      className={`chroma-grid ${className}`}
-      style={{
-        '--r': `${radius}px`,
-        '--cols': columns,
-        '--rows': rows
-      }}
-      onPointerMove={handleMove}
-      onPointerLeave={handleLeave}
-    >
-      {data.map((c, i) => (
-        <article
-          key={i}
-          className="chroma-card"
-          onMouseMove={handleCardMove}
-          onClick={() => handleCardClick(c.url)}
-          style={{
-            '--card-border': c.borderColor || 'transparent',
-            '--card-gradient': c.gradient,
-            cursor: c.url ? 'pointer' : 'default'
-          }}
+    <div id="projects-section" className="section projects-section">
+        <div
+        ref={rootRef}
+        className={`chroma-grid ${className}`}
+        style={{
+            '--r': `${radius}px`,
+            '--cols': columns,
+            '--rows': rows
+        }}
+        onPointerMove={handleMove}
+        onPointerLeave={handleLeave}
         >
-          <div className="chroma-img-wrapper">
-            <img src={c.image} alt={c.title} loading="lazy" />
-          </div>
-          
-        </article>
-      ))}
-      <div className="chroma-overlay" />
-      <div ref={fadeRef} className="chroma-fade" />
+        {data.map((c, i) => (
+            <article
+            key={i}
+            className="chroma-card"
+            onMouseMove={handleCardMove}
+            onClick={() => handleCardClick(c.url)}
+            style={{
+                '--card-border': c.borderColor || 'transparent',
+                '--card-gradient': c.gradient,
+                cursor: c.url ? 'pointer' : 'default'
+            }}
+            >
+            <div className="chroma-img-wrapper">
+                <img src={c.image} alt={c.title} loading="lazy" />
+            </div>
+            
+            </article>
+        ))}
+        <div className="chroma-overlay" />
+        <div ref={fadeRef} className="chroma-fade" />
+        </div>
     </div>
   );
 };

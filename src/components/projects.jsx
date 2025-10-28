@@ -5,21 +5,30 @@ import ProjectGrid from './projectGrid'
 export const projects = () => {
     const items = [
   {
-    image: "https://i.pravatar.cc/300?img=1",
-    title: "Sarah Johnson",
+    image: "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+    title: "Portfolio",
     subtitle: "Frontend Developer",
     handle: "@sarahjohnson",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #f3f3f3ff, #000)",
+    borderColor: "#ffffffff",
+    gradient: "linear-gradient(145deg, #484848ff, #000)",
     url: "https://github.com/sarahjohnson"
   },
   {
-    image: "https://i.pravatar.cc/300?img=2",
+    image: "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
     title: "Mike Chen",
     subtitle: "Backend Engineer",
     handle: "@mikechen",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #d42222ff, #000)",
+    borderColor: "#A43BA3",
+    gradient: "linear-gradient(180deg, #a43ba2ba, #000)",
+    url: "https://linkedin.com/in/mikechen"
+  },
+  {
+    image: "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+    title: "Mike Chen",
+    subtitle: "Backend Engineer",
+    handle: "@mikechen",
+    borderColor: "#ffffffba",
+    gradient: "linear-gradient(180deg, #ffffffba, #000)",
     url: "https://linkedin.com/in/mikechen"
   }
 ];
