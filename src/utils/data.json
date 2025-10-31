@@ -228,17 +228,114 @@
     ],
     "projects": [
         {
-            "title": "Portfolio Website",
-            "description": "A personal portfolio website to showcase my projects and skills.",
-            "url": "https://example.com/portfolio",
-            "image": "https://example.com/images/portfolio.png"
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "github": "https://github.com/chethan025/webfolio",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://chethan025.github.io/Webfolio/"
         },
         {
-            "title": "E-commerce Platform",
-            "description": "A full-stack e-commerce application built with React and Node.js.",
-            "url": "https://example.com/ecommerce",
-            "image": "https://example.com/images/ecommerce.png"
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#A43BA3",
+            "gradient": "linear-gradient(180deg, #a43ba27b, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img3",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://github.com/sarahjohnson"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "title": "Portfolio",
+            "description": "Frontend Developer",
+            "github": "@sarahjohnson",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://github.com/sarahjohnson"
         }
+        
     ],
     "certifications": [
         {

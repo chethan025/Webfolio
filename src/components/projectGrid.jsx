@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import '../styles/projectgrid.css';
 
@@ -18,7 +18,7 @@ export const ProjectGrid = ({
   const setY = useRef(null);
   const pos = useRef({ x: 0, y: 0 });
 
-  const data = items;
+  const [selectedCard, setSelectedCard] = useState(null);
 
   useEffect(() => {
     const el = rootRef.current;
@@ -59,12 +59,6 @@ export const ProjectGrid = ({
     });
   };
 
-  const handleCardClick = url => {
-    if (url) {
-      window.open(url, '_blank', 'noopener,noreferrer');
-    }
-  };
-
   const handleCardMove = e => {
     const card = e.currentTarget;
     const rect = card.getBoundingClientRect();
@@ -74,40 +68,85 @@ export const ProjectGrid = ({
     card.style.setProperty('--mouse-y', `${y}px`);
   };
 
+  const handleCardClick = card => {
+    setSelectedCard(card);
+  };
+
+  const closeModal = () => {
+    gsap.to('.modal-content', {
+      scale: 0.8,
+      opacity: 0,
+      duration: 0.3,
+      ease: 'power2.in',
+      onComplete: () => setSelectedCard(null)
+    });
+  };
+
+  useEffect(() => {
+    if (selectedCard) {
+      gsap.fromTo(
+        '.modal-content',
+        { scale: 0.8, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.4, ease: 'power3.out' }
+      );
+    }
+  }, [selectedCard]);
+
   return (
     <div id="projects-section" className="section projects-section">
-        <div
+      <h2>Projects</h2>
+      <div
         ref={rootRef}
         className={`chroma-grid ${className}`}
         style={{
-            '--r': `${radius}px`,
-            '--cols': columns,
-            '--rows': rows
+          '--r': `${radius}px`,
+          '--cols': columns,
+          '--rows': rows
         }}
         onPointerMove={handleMove}
         onPointerLeave={handleLeave}
-        >
-        {data.map((c, i) => (
-            <article
+      >
+        {items.map((c, i) => (
+          <article
             key={i}
             className="chroma-card"
             onMouseMove={handleCardMove}
-            onClick={() => handleCardClick(c.url)}
+            onClick={() => handleCardClick(c)}
             style={{
-                '--card-border': c.borderColor || 'transparent',
-                '--card-gradient': c.gradient,
-                cursor: c.url ? 'pointer' : 'default'
+              '--card-border': c.borderColor || 'transparent',
+              '--card-gradient': c.gradient,
+              cursor: 'pointer'
             }}
-            >
+          >
             <div className="chroma-img-wrapper">
-                <img src={c.image} alt={c.title} loading="lazy" />
+              <img src={c.image} alt={c.title} loading="lazy" />
             </div>
-            
-            </article>
+          </article>
         ))}
         <div className="chroma-overlay" />
         <div ref={fadeRef} className="chroma-fade" />
+      </div>
+
+      {/* Modal */}
+      {selectedCard && (
+        <div className="modal-backdrop" onClick={closeModal}>
+          <div
+            className="modal-content"
+            onClick={e => e.stopPropagation()}
+          >
+            <button className="modal-close" onClick={closeModal}>
+              ✕
+            </button>
+            <div className='modalbg' style={{
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.19), #2b2b2b), url(${selectedCard.image})`}}></div>
+            <h2 className="modal-title">{selectedCard.title}</h2>
+            <p>{selectedCard.description}</p>
+            <a href={selectedCard.github} target="_blank" rel="noopener noreferrer" className="modal-link"> github repo </a>
+            <a href={selectedCard.url} target="_blank" rel="noopener noreferrer" className="modal-link"> live demo </a>
+            
+          </div>
         </div>
+      )}
     </div>
   );
 };

@@ -1,12 +1,12 @@
 .chroma-grid {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: max-content;
   display: grid;
-  grid-template-columns: repeat(var(--cols, 3), 320px);
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
-  gap: 0.75rem;
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -47,7 +47,7 @@
 
   --mouse-x: 50%;
   --mouse-y: 50%;
-  --spotlight-color: rgba(255, 255, 255, 0.3);
+  --spotlight-color: rgba(205, 205, 205, 0.19);
 }
 
 .chroma-card:hover {
@@ -58,7 +58,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 70%);
+  background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 50%);
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -108,9 +108,9 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 3;
+  z-index: 3;/* 
   backdrop-filter: grayscale(1) brightness(0.78);
-  -webkit-backdrop-filter: grayscale(1) brightness(0.78);
+  -webkit-backdrop-filter: grayscale(1) brightness(0.78); */
   background: rgba(0, 0, 0, 0.001);
 
   mask-image: radial-gradient(
@@ -141,9 +141,9 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 4;
+  z-index: 4;/* 
   backdrop-filter: grayscale(1) brightness(0.78);
-  -webkit-backdrop-filter: grayscale(1) brightness(0.78);
+  -webkit-backdrop-filter: grayscale(1) brightness(0.78); */
   background: rgba(0, 0, 0, 0.001);
 
   mask-image: radial-gradient(
@@ -171,4 +171,71 @@
 
   opacity: 1;
   transition: opacity 0.25s ease;
+}
+
+
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 14, 14, 0.621);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  background: #2b2b2b;
+  border-radius: 20px;
+  padding: 0 0 2rem;
+  width: 90%;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  cursor: default;
+  text-align: center;
+  overflow: hidden;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.modal-close:hover {
+  transform: scale(1.2);
+  color: #ff5c5c;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.modal-description {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+
+.modalbg{
+  width: 100%;
+  height:5rem;
+  background-position: center;
+  background-size: cover;
 }
