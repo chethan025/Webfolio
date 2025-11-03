@@ -273,7 +273,7 @@
             "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html"
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698590019223.jpg?img1",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698590019223.jpeg?img1",
             "title": "Tip Calculator",
             "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
@@ -300,7 +300,7 @@
             "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html"
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpg?img2",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
             "title": "Calculator",
             "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
             "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
