@@ -39,7 +39,7 @@
             {
                 "name": "Shopify Liquid",
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify-liquid.png",
-                "description": "Proficient in Shopify Liquid templating language for customizing Shopify themes and creating dynamic content.",
+                "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
                 "projects": [ 
                     "Custom Product Page with Liquid",
                     "Dynamic Collection Page Development",
@@ -51,7 +51,7 @@
             
             {
                 "name": "React",
-                "description": "Skilled in building responsive and interactive user interfaces using React.js, with experience in state management and component-based architecture.",
+                "description": "Builds fast, responsive, and interactive frontends with React, focusing on reusable components and smooth user interfaces.",
                 "projects": [
                     "Personal Portfolio Website",
                     "E-commerce Platform with React",
@@ -63,7 +63,7 @@
             },
             {
                 "name": "Node.js",
-                "description": "Experienced in server-side development with Node.js, including building RESTful APIs and handling backend logic.",
+                "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
                 "projects": [   
                     "RESTful API for E-commerce Application",
                     "Real-time Chat Application with Node.js",
@@ -75,7 +75,7 @@
             },
             {
                 "name": "Express.js",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -85,7 +85,7 @@
             },
             {
                 "name": "MongoDB",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Git",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -105,7 +105,7 @@
             },
             {
                 "name": "GitHub",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -115,7 +115,7 @@
             },
             {
                 "name": "HTML",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Creates semantic, accessible, and SEO-friendly page structures for modern web applications.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -125,7 +125,7 @@
             },
             {
                 "name": "CSS",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Crafts visually engaging and responsive layouts using advanced CSS techniques and animations.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -135,7 +135,7 @@
             },
             {
                 "name": "SCSS",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -145,7 +145,7 @@
             },
             {
                 "name": "JavaScript",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Develops dynamic web experiences with JavaScript, applying modern ES6+ practices for better performance and clarity.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -155,7 +155,7 @@
             },
             {
                 "name": "Figma",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Designs clean, user-centered interfaces and prototypes, bridging the gap between UI design and front-end development.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -165,7 +165,7 @@
             },
             {
                 "name": "PHP",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Builds and maintains dynamic websites and server-side logic with PHP, including integration with MySQL databases.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -175,7 +175,7 @@
             },
             {
                 "name": "MySQL",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Designs relational databases and writes optimized queries for data-driven applications.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -185,7 +185,7 @@
             },
             {
                 "name": "VS Code",
-                "description": "Proficient in using Express.js framework for building robust web applications and APIs.",
+                "description": "Efficiently codes and debugs projects using Visual Studio Code with a customized, productivity-focused workflow.",
                 "projects": [
                     "jjdfsdb","jdhfsdbvsb"
                 ],
@@ -238,93 +238,93 @@
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Deepockets",
+            "description": "Deepockets is a sleek esports and event platform designed to turn viewers into active participants. It lets users register for live competitions, earn free NFTs, and experience gamified engagement instead of just watching others play. The platform blends entertainment, competition, and blockchain rewards through a clean, modern interface. With its focus on live events and digital collectibles, DeePockets brings a fresh edge to the esports and event space—where every user gets a chance to play, win, and own something real.",
+            "github": "https://github.com/chethan025/Deepockets/",
             "borderColor": "#A43BA3",
             "gradient": "linear-gradient(180deg, #a43ba27b, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img3",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Xagon",
+            "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
+            "github": "https://github.com/XAGON-org/Xagon-Themes",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://xagon.co.in/"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpeg?img1",
+            "title": "Trending Sportswear",
+            "description": "I built CODSOFT’s modern landing experience with a clean, responsive HTML + CSS + SCSS setup, combining tradition and trending design aesthetics. The hero section announces a “Tradition meets Trends” theme, followed by a dynamic “Popular Brands” carousel featuring top athletic labels like PUMA, adidas, Nike, and Jordan. There’s a clear call-to-action inviting visitors to learn more or join the community via login or signup, along with dedicated sections for user reviews, brand story, and peer testimonials. The page is optimized for performance and usability, and acts as a brand gateway linking products, about us, and login flows seamlessly.",
+            "github": "https://github.com/chethan025/CODSOFT/tree/main/Landing%20Page",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpeg?img1",
+            "title": "GYM WEB",
+            "description": "I built a fully responsive gym-and-fitness landing site using clean HTML + CSS + SCSS, focusing on both visual appeal and usability. It features clearly laid out sections for classes (cardio, strength, mind-body, sports, special workouts), pricing tiers (Basic / Gold / Premium with monthly discounts), and a blog section to share fitness journeys and build community. There is also a contact form to allow visitors to reach out easily, plus pages for FAQs, privacy policy, and support. The design is polished with UI elements derived from curated free-resource assets, and everything is handcrafted by me for a cohesive and professional feel.",
+            "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Gym%20Website",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html"
+        },
+        {
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698590019223.jpg?img1",
+            "title": "Tip Calculator",
+            "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
+            "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
+            "borderColor": "#ffffffff",
+            "gradient": "linear-gradient(145deg, #484848c7, #000)",
+            "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Guessing Game",
+            "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
+            "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Editor",
+            "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
+            "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html"
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://github.com/sarahjohnson"
-        },
-        {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://github.com/sarahjohnson"
-        },
-        {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpg?img2",
+            "title": "Calculator",
+            "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
+            "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
+            "borderColor": "#ffffffba",
+            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Time Ripen",
+            "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
+            "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
+            "title": "Crypto Horizon",
+            "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",
+            "github": "https://github.com/chethan025/cryptohorizon",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson"
-        },
-        {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
-            "borderColor": "#ffffffba",
-            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://crypto-horizon.netlify.app/"
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
