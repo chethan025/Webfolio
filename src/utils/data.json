@@ -339,16 +339,132 @@
     ],
     "certifications": [
         {
+            "id": 1,
             "title": "Full Stack Web Development",
             "issuer": "Coursera",
             "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development"
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Coursera GC57YKWN3DWU.pdf"
         },
         {
-            "title": "JavaScript Algorithms and Data Structures",
-            "issuer": "freeCodeCamp",
-            "date": "2022-12-10",
-            "url": "https://example.com/certifications/javascript-algorithms"
+            "id": 2,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-e0b2af40-74da-44b6-a64c-fd4416cfc6e0.pdf"
+        },
+        {
+            "id": 3,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-b8a78ff1-b295-42d6-873a-e3faac622578.pdf"
+        },
+        {
+            "id": 4,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate _ Landscape-1.pdf"
+        },
+        {
+            "id": 5,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S-codsoft-internship-certificate.pdf"
+        },
+        {
+            "id": 6,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan S Internship Completion Certificate NexaByteOrg.pdf"
+        },
+        {
+            "id": 7,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/LetsUpgrade certificate.pdf"
+        },
+        {
+            "id": 8,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/72375666311520 (1).pdf"
+        },
+        {
+            "id":9,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391477-cdf62cd56b5c5818584780f8d3395cb9.pdf"
+        },
+        {
+            "id": 10,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391490-4e9be3365e540e168897e50918d279ab.pdf"
+        },
+        {
+            "id": 11,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan025.pdf"
+        },
+        {
+            "id": 12,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan_S20230627-191-180a22k.pdf"
+        },
+        {
+            "id": 13,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-67-x3j1t5.pdf"
+        },
+        {
+            "id": 14,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-70-14rcgb8.pdf"
+        },
+        {
+            "id": 15,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230717-67-1yztneh.pdf"
+        },
+        {
+            "id": 16,
+            "title": "Full Stack Web Development",
+            "issuer": "Coursera",
+            "date": "2023-01-15",
+            "url": "https://example.com/certifications/full-stack-web-development",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230723-69-1motc2x.pdf"
         }
     ],
     "education": [
