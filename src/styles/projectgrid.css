@@ -32,6 +32,12 @@
     padding: 1rem;
   }
 }
+.abc0{
+    opacity: 0;
+}
+.abc1{
+    opacity: 1 !important;
+}
 
 .chroma-card {
   position: relative;

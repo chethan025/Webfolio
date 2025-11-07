@@ -8,6 +8,7 @@ import './styles/main.scss';
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import 'animate.css';
 
 export default function App() {
   return (

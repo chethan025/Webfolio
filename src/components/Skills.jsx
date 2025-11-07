@@ -2,10 +2,12 @@ import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import data from '../utils/data.json'
 import "../styles/main-about.scss";
+import useScrollReveal from './scrollReveal';
 
 const skills = data.about.skills;
 
 export default function SkillSection() {
+  const { ref, visible } = useScrollReveal(0.5);
   const [selectedSkill, setSelectedSkill] = useState(null);
   const [dialogPos, setDialogPos] = useState({ top: 0, left: 0 });
   const containerRef = useRef(null);
@@ -32,7 +34,7 @@ export default function SkillSection() {
 
   return (
     <>
-    <div className=" abc Skills" id="skills">
+<div ref={ref} className={"abc Skills " + (visible ? "animate__animated animate__fadeInLeft" : "")} id="skills">
       <h2>Skills</h2>
       <div
         className="skills-container"

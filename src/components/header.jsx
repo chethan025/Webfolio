@@ -5,29 +5,29 @@ import ShinyText from './animations/shiny-text'
 import data from'../utils/data.json'
 import { useRef } from 'react';
 import VariableProximity from './animations/shortbio';
-
-
+import MorphTextLoop from './animations/web-developer';
+import useScrollReveal from './scrollReveal';
 
 
 export default function Header() {
   const containerRef = useRef(null);
+  const { ref, visible } = useScrollReveal(0.5);
   return (
     <>
-      <div id="header-section" className="section header-section">
-        <h2 className='webheader'>
-          <DecryptedText
-            text="WEB DEVELOPER"
-            animateOn="view"
-            speed={150}
-            maxIterations={10}
-            characters="10101011010011010"
+      <div id="header-section" className="section header-section ">
+        <h2 ref={ref} className={"webheader " + (visible ? "animate__animated animate__fadeInDown" : "")}>
+          <MorphTextLoop
+            from="WEB DEVELOPER"
+            to="PORTFOLIO"
+            speed={160}
+            intervalTime={3000}   // loop every 3 seconds
             className="revealed"
             parentClassName="all-letters"
-            encryptedClassName="encrypted"
           />
+
         </h2>
 
-        <div className="intro" id='intro'>
+        <div ref={ref} className={"intro " + (visible ? "animate__animated animate__fadeInLeft" : "")} id='intro'>
           <h1>CHETHAN S</h1>
           <div
             ref={containerRef}
@@ -46,7 +46,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="resume-button" id='resume-link'>
+        <div ref={ref} className={"resume-button " + (visible ? "animate__animated animate__fadeInRight" : "")} id='resume-link'>
           <a
             href={data.about.resume.url}
             target="_blank"

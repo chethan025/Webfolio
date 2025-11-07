@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import '../styles/projectgrid.css';
-
+import useScrollReveal from './scrollReveal';
 export const ProjectGrid = ({
   items,
   className = '',
@@ -12,6 +12,7 @@ export const ProjectGrid = ({
   fadeOut = 0.6,
   ease = 'power3.out'
 }) => {
+  const { ref, visible } = useScrollReveal(0.1);
   const rootRef = useRef(null);
   const fadeRef = useRef(null);
   const setX = useRef(null);
@@ -108,8 +109,9 @@ export const ProjectGrid = ({
       >
         {items.map((c, i) => (
           <article
+           ref={ref}
             key={i}
-            className="chroma-card"
+            className={"abc0 chroma-card " + (visible ? "abc1 animate__animated animate__zoomIn" : "")}
             onMouseMove={handleCardMove}
             onClick={() => handleCardClick(c)}
             style={{
@@ -139,11 +141,12 @@ export const ProjectGrid = ({
             </button>
             <div className='modalbg' style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.19), #2b2b2b), url(${selectedCard.image})`}}></div>
-            <h2 className="modal-title">{selectedCard.title}</h2>
-            <p>{selectedCard.description}</p>
-            <a href={selectedCard.github} target="_blank" rel="noopener noreferrer" className="modal-link"> github repo </a>
-            <a href={selectedCard.url} target="_blank" rel="noopener noreferrer" className="modal-link"> live demo </a>
-            
+            <div className='modadetail-box'>
+              <h2 className="modal-title">{selectedCard.title}</h2>
+              <p>{selectedCard.description}</p>
+              <a href={selectedCard.github} target="_blank" rel="noopener noreferrer" className="modal-link"> github repo </a>
+              <a href={selectedCard.url} target="_blank" rel="noopener noreferrer" className="modal-link"> live demo </a>
+            </div>
           </div>
         </div>
       )}
