@@ -1,0 +1,24 @@
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin box-shadow($color: rgba(0, 0, 0, 0.25)) {
+  box-shadow: 0 4px 12px $color;
+}
+
+@mixin transition($property: all, $duration: 0.3s, $ease: ease-in-out) {
+  transition: $property $duration $ease;
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: 600px) { @content; }
+  } @else if $breakpoint == md {
+    @media (max-width: 900px) { @content; }
+  } @else if $breakpoint == lg {
+    @media (max-width: 1200px) { @content; }
+  }
+}

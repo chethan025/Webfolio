@@ -1,5 +1,5 @@
 @use 'main';
-
+@import './mixins';
 .grid{
     display: grid;
 }
@@ -30,7 +30,7 @@
     grid-row-start: 1;
     padding: 2rem;
     background:linear-gradient(180deg, #eee 0%, #515050 162%);
-
+    // z-index: -1;
 }
 
 .gccc{

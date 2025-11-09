@@ -1,5 +1,5 @@
 @use 'main';
-
+@import './mixins';
 .webheader{
     grid-area: header;
     text-align : center;
@@ -64,7 +64,7 @@
 
 .header-section h2{
     font-family: main.$font-conquera;
-    font-size: clamp(2rem, 5.75vw, 16.67rem);
+    font-size: clamp(2rem, 5.70vw, 16.67rem);
 
 }
 
@@ -80,3 +80,42 @@
     letter-spacing: .05rem;
 }
 
+
+@include respond(lg) {
+
+}
+
+@include respond(md) {
+    .intro h1{
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    margin: 2rem 0 .3rem 0;
+    }
+    .header-section{
+        grid-template-areas: 'header'
+                            'intro'
+                            'resume-link';
+        
+    }
+    .header-section h2{
+        font-size: clamp(2vw, 5.2vw, 16.67rem);
+        margin: 8rem 0;
+    }
+    .shortbio{
+        font-size: .75rem;
+        position: relative;
+        width: 100%;
+        letter-spacing: .05rem;
+    }
+    .resume-link{
+        width: 50%;
+        height: 100%;
+    margin: 1rem;
+    padding: 1rem;
+        
+    }
+    .resume-button{
+justify-items: center;
+}
+    
+}

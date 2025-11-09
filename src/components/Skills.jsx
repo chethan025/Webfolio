@@ -34,117 +34,119 @@ export default function SkillSection() {
 
   return (
     <>
-<div ref={ref} className={"abc Skills " + (visible ? "animate__animated animate__fadeInLeft" : "")} id="skills">
-      <h2>Skills</h2>
-      <div
-        className="skills-container"
-        ref={containerRef}
-      >
-        
-        {skills.map((skill, index) => (
-          <button
-            key={index}
-            onClick={(e) => handleSkillClick(skill, e)}
-            
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.transform = "scale(1.05)")
-            }
-            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-          >
-            <img className="skill-logo" src={skill.logo} />
-          </button>
-        ))}
-
-        <AnimatePresence>
-          {selectedSkill && (
-            <motion.div
-              key={selectedSkill.name}
-              initial={{ opacity: 0, scale: 0.8, y: 20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              transition={{ duration: 0.2 }}
-              className="skills-dropdown"
-              style={{
-                top: dialogPos.top,
-                left: dialogPos.left
-              }}
+      <div ref={ref} className={"abc Skills " + (visible ? "animate__animated animate__fadeInDown" : "")} id="skills">
+        <div>
+        <h2>Skills</h2>
+        <div
+          className="skills-container"
+          ref={containerRef}
+        >
+          
+          {skills.map((skill, index) => (
+            <button
+              key={index}
+              onClick={(e) => handleSkillClick(skill, e)}
+              
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.transform = "scale(1.05)")
+              }
+              onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
             >
-              <div className="skill-name">
-                <h3 className="skill-h3" style={{ fontSize: 18 }}>
-                  <img className="skill-logo"  src={selectedSkill.logo} />
-                  {selectedSkill.name}
-                </h3>
-                <button
-                  onClick={() => setSelectedSkill(null)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    color: "#929292",
-                    fontSize: 18,
-                    cursor: "pointer",
-                  }}
-                >
-                  ✕
-                </button>
-              </div>
-              <p
+              <img className="skill-logo" src={skill.logo} />
+            </button>
+          ))}
+
+          <AnimatePresence>
+            {selectedSkill && (
+              <motion.div
+                key={selectedSkill.name}
+                initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                exit={{ opacity: 0, scale: 0.9, y: 20 }}
+                transition={{ duration: 0.2 }}
+                className="skills-dropdown"
                 style={{
-                  fontSize: 13,
-                  color: "#929292",
-                  marginBottom: 12,
-                  lineHeight: 1.4,
+                  top: dialogPos.top,
+                  left: dialogPos.left
                 }}
               >
-                {selectedSkill.description}
-              </p>
-              <p
-                style={{
-                  fontSize: 13,
-                  color: "#929292",
-                  marginBottom: 12,
-                  lineHeight: 1.4,
-                }}
-              >
-                Type: {selectedSkill.type}
-              </p>
-              <p
-                style={{
-                  fontSize: 13,
-                  color: "#929292",
-                  marginBottom: 12,
-                  lineHeight: 1.4,
-                }}
-              >
-                Skill type: {selectedSkill.skill_type}
-              </p>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                <span 
-                  style={{
-                    fontSize: 13,
-                    color: "#929292"
-                  }}
-                >Projects:</span>
-                {selectedSkill.projects.map((tag, i) => (
-                  
-                  <span
-                    key={i}
+                <div className="skill-name">
+                  <h3 className="skill-h3" style={{ fontSize: 18 }}>
+                    <img className="skill-logo"  src={selectedSkill.logo} />
+                    {selectedSkill.name}
+                  </h3>
+                  <button
+                    onClick={() => setSelectedSkill(null)}
                     style={{
-                      background: "#929292",
-                      color: "#000",
-                      padding: "6px 12px",
-                      borderRadius: 6,
-                      fontSize: 11,
+                      background: "none",
+                      border: "none",
+                      color: "#929292",
+                      fontSize: 18,
+                      cursor: "pointer",
                     }}
                   >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+                    ✕
+                  </button>
+                </div>
+                <p
+                  style={{
+                    fontSize: 13,
+                    color: "#929292",
+                    marginBottom: 12,
+                    lineHeight: 1.4,
+                  }}
+                >
+                  {selectedSkill.description}
+                </p>
+                <p
+                  style={{
+                    fontSize: 13,
+                    color: "#929292",
+                    marginBottom: 12,
+                    lineHeight: 1.4,
+                  }}
+                >
+                  Type: {selectedSkill.type}
+                </p>
+                <p
+                  style={{
+                    fontSize: 13,
+                    color: "#929292",
+                    marginBottom: 12,
+                    lineHeight: 1.4,
+                  }}
+                >
+                  Skill type: {selectedSkill.skill_type}
+                </p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                  <span 
+                    style={{
+                      fontSize: 13,
+                      color: "#929292"
+                    }}
+                  >Projects:</span>
+                  {selectedSkill.projects.map((tag, i) => (
+                    
+                    <span
+                      key={i}
+                      style={{
+                        background: "#929292",
+                        color: "#000",
+                        padding: "6px 12px",
+                        borderRadius: 6,
+                        fontSize: 11,
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+        </div>
       </div>
-    </div>
     </>
   );
 }

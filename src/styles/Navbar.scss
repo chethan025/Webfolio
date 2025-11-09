@@ -1,5 +1,5 @@
 @use 'main';
-
+@import './mixins';
 
 .navbar {
     position: fixed;
@@ -35,3 +35,12 @@
 }
 
 
+@include respond(lg) {
+
+}
+
+@include respond(md) {
+    .navbar{
+        display: none;
+    }
+}

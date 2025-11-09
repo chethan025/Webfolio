@@ -1,3 +1,4 @@
+@import './mixins';
 /* color */
 $bgclr : #000;
 $color: #fff;
@@ -42,7 +43,6 @@ body{
     margin: 0 2rem 5rem;
     padding: 1rem 0;
     font-family: $font-montserrat;
-
 }
 .abc0{
     opacity: 0;
@@ -53,4 +53,18 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+@include respond(md) {
+    .section{
+    height:100%;
+    margin: 0 0rem 1rem;
+    padding: 1rem 0;
+    font-family: $font-montserrat;
+}
+
+.mainappcontainer{
+    background:radial-gradient(52.25% 44.55% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(225, 233, 230, 0.01) 88%);
+
+}
 }
