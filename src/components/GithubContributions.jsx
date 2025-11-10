@@ -1,5 +1,4 @@
 import React from "react";
-import data from "../utils/data.json";
 import GC from "./GC";
 import GR from "./GR";
 import GD from "./GD";

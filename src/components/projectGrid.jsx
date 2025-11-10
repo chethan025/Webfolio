@@ -114,7 +114,7 @@ export const ProjectGrid = ({
               className={
                 "abc0 chroma-card " +
                 (visibleList[i]
-                  ? "abc1 animate__animated animate__fadeInDown"
+                  ? "abc1 animate__animated animate__zoomIn"
                   : "")
               }
               onMouseMove={handleCardMove}
