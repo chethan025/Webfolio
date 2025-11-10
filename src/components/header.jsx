@@ -1,5 +1,4 @@
 import React from 'react'
-import DecryptedText from './animations/web-developer'
 import '../styles/Header.scss'
 import ShinyText from './animations/shiny-text'
 import data from'../utils/data.json'

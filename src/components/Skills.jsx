@@ -52,7 +52,7 @@ export default function SkillSection() {
               }
               onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
             >
-              <img className="skill-logo" src={skill.logo} />
+              <img className="skill-logo" alt={skill.name} src={skill.logo} />
             </button>
           ))}
 
@@ -72,7 +72,7 @@ export default function SkillSection() {
               >
                 <div className="skill-name">
                   <h3 className="skill-h3" style={{ fontSize: 18 }}>
-                    <img className="skill-logo"  src={selectedSkill.logo} />
+                    <img className="skill-logo" alt={selectedSkill.name} src={selectedSkill.logo} />
                     {selectedSkill.name}
                   </h3>
                   <button

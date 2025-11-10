@@ -13,7 +13,7 @@ export default function About() {
                 <p className='about-text'>{data.about.description}</p>
                 <div className='about-contact'>
                     {contacts.map((contact, index) => (
-                        <a  key={index} href={contact.url} target="_blank" className='cont-icon icon link'>
+                        <a  key={index} href={contact.url} target="_blank" rel="noreferrer" className='cont-icon icon link'>
                         <SvgRender path={contact.logo} />
                         </a>
                     ))}
