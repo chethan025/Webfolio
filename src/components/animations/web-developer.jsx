@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 export default function MorphTextLoop({
   from = "PORTFOLIO",
@@ -13,37 +13,37 @@ export default function MorphTextLoop({
   // true = from → to, false = to → from
 
   // morph one full pass
-  const morphOnce = (start, end, done) => {
-    let i = 0;
-    const max = Math.max(start.length, end.length);
+  const morphOnce = useCallback((start, end, done) => {
+  let i = 0;
+  const max = Math.max(start.length, end.length);
 
-    const interval = setInterval(() => {
-      i++;
+  const interval = setInterval(() => {
+    i++;
 
-      const next =
-        end.slice(0, i) +
-        start.slice(i);
+    const next =
+      end.slice(0, i) +
+      start.slice(i);
 
-      setCurrent(next.padEnd(max, " "));
+    setCurrent(next.padEnd(max, " "));
 
-      if (i >= max) {
-        clearInterval(interval);
-        done && done();
-      }
-    }, speed);
-  };
+    if (i >= max) {
+      clearInterval(interval);
+      done && done();
+    }
+  }, speed);
+}, [speed]);
 
   useEffect(() => {
-    const loop = setInterval(() => {
-      if (direction) {
-        morphOnce(from, to, () => setDirection(false));
-      } else {
-        morphOnce(to, from, () => setDirection(true));
-      }
-    }, intervalTime);
+  const loop = setInterval(() => {
+    if (direction) {
+      morphOnce(from, to, () => setDirection(false));
+    } else {
+      morphOnce(to, from, () => setDirection(true));
+    }
+  }, intervalTime);
 
-    return () => clearInterval(loop);
-  }, [direction, from, to, speed, intervalTime]);
+  return () => clearInterval(loop);
+}, [direction, from, to, speed, intervalTime, morphOnce]);
 
   return (
     <span className={parentClassName}>

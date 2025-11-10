@@ -1,5 +1,4 @@
 import React from 'react'
-import data from '../utils/data.json'
 import AboutMe from '../components/AboutMe'
 import Skills from '../components/Skills'
 import GithubC from '../components/GithubContributions'
