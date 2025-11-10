@@ -82,9 +82,12 @@
 }
 
 @include respond(md) {
+  .intro {
+  margin: 0 0 1.5rem;
+}
   .intro h1 {
-    font-size: 1rem;
-    letter-spacing: 0.15rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.25rem;
     margin: 2rem 0 0.3rem 0;
   }
   .header-section {
@@ -95,10 +98,10 @@
   }
   .header-section h2 {
     font-size: clamp(2vw, 5.2vw, 16.67rem);
-    margin: 8rem 0;
+    margin: 12rem 0;
   }
   .shortbio {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     position: relative;
     width: 100%;
     letter-spacing: 0.05rem;

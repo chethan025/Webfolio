@@ -23,7 +23,7 @@ const SPRING_OPTIONS = { type: 'spring', stiffness: 300, damping: 30 };
 
 export default function Carousel({
   items = DEFAULT_ITEMS,
-  baseWidth = 300,
+  baseWidth = 1300,
   autoplay = false,
   autoplayDelay = 3000,
   pauseOnHover = false,
@@ -115,6 +115,7 @@ export default function Carousel({
       ref={containerRef}
       className={`carousel-container ${round ? 'round' : ''}`}
       style={{
+        width: `${baseWidth}px`,
         ...(round && { height: `${baseWidth}px`, borderRadius: '50%' })
       }}
     >

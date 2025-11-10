@@ -68,20 +68,11 @@ export default function GithubPinnedRepos({ usernames }) {
           <div className="" style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>
             {reposByUser[username].map((repo) => (
               <a
+              className="grlnk"
                 key={repo.url}
                 href={repo.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  // boxShadow: 'inset 0 0 0 3px #ddd',
-                  borderRadius: 8,
-                  padding: 12,
-                  width: 220,
-                  backgroundColor: "#101411",
-                  textDecoration: "none",
-                  color: "#ddd",
-                  transition: "transform 0.1s",
-                }}
                 onMouseEnter={(e) =>
                   (e.currentTarget.style.transform = "scale(1.03)")
                 }
@@ -89,7 +80,7 @@ export default function GithubPinnedRepos({ usernames }) {
                   (e.currentTarget.style.transform = "scale(1)")
                 }
               >
-                <h3 style={{ fontSize: 16, fontWeight: 600 }}>{repo.name}</h3>
+                <h3 className="grh3">{repo.name}</h3>
                 <p
                   style={{
                     fontSize: 12,

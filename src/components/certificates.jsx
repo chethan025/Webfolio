@@ -9,7 +9,8 @@ export const Certificatess = () => {
       >
         <Carousel
         className="certificates-carousel"
-            autoplay={true}
+        baseWidth={window.innerWidth * 0.8}
+            autoplay={false}
             autoplayDelay={3000}
             pauseOnHover={true}
             loop={true}

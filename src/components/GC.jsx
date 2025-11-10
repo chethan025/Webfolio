@@ -98,10 +98,12 @@ export default function GithubContributions() {
         style={{
           marginBottom: 16,
           padding: 4,
-          backgroundColor: "#0d1117",
+          backgroundColor: "#232925",
           color: "#c9d1d9",
-          border: "1px solid #30363d",
+          border: "1px solid #30363d07",
           borderRadius: 4,
+          justifySelf: "end",
+          width: "max-content",
         }}
       >
         {Array.from({ length: 5 }, (_, i) => new Date().getFullYear() - i).map(

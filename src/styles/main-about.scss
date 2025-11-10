@@ -32,10 +32,24 @@
   background: linear-gradient(180deg, #eee 0%, #515050 162%);
   // z-index: -1;
 }
+.grlnk{
+  border-radius: 8px;
+  padding: 12px;
+  width: 220px;
+  background-color: #101411;
+  text-decoration: none;
+  color: #ddd;
+  transition: transform 0.1s;
+  .grh3{
+    font-size: 16px; 
+    font-weight: 600px;
+}
+}
 
 .gccc {
   background-color: #232925;
   padding: 1.5rem;
+    display: grid;
   border-radius: 16px;
   .gcbox {
     display: flex;
@@ -46,7 +60,7 @@
     flex-direction: column;
     margin-right: 5px;
     justify-content: space-around;
-    height: 12 * 7 + 6 * 6
+    height: 12 * 7 + 6 * 6px;
   }
   .gcwkds {
     font-size: 10px;
@@ -187,6 +201,27 @@
   .about-container {
     grid-template-columns: auto;
     grid-template-rows: auto;
+    margin: 1rem 0;
+  }
+  .self-intro {
+    .about-header {
+      font-size: 1.2rem;
+      margin: 0.6rem 0;
+    }
+    .about-text {
+      letter-spacing: 0.8px;
+      line-height: 22px;
+      font-size: 0.8rem;
+    }
+    .about-contact {
+      margin-top: 1rem;
+      .cont-icon {
+        svg {
+          width: 16px !important;
+          height: 16px !important;
+        }
+      }
+    }
   }
 
   .github-contributions {
@@ -194,47 +229,69 @@
     grid-column-start: auto;
     grid-row-start: auto;
   }
+  .grdimg {
+  width:100%;
+  height: auto;
+}
+.grlnk{
+  border-radius: 8px;
+  padding: 10px;
+  width: 45%;
+  .grh3{
+    font-size: 12px; 
+
+}
+}
+
   .gccc {
-  background-color: #232925;
-  padding: 1.5rem;
-  border-radius: 16px;
-  .gcbox {
-    display: flex;
-    align-items: flex-start;
-    width: 62vw;
+    background-color: #232925;
+    padding: 1.5rem;
+    border-radius: 16px;
+    .gcbox {
+      display: flex;
+      align-items: flex-start;
+      width: 62vw;
+    }
+    .gcwks {
+      display: flex;
+      flex-direction: column;
+      margin-right: 5px;
+      margin-top: 12px;
+      justify-content: space-around;
+      height: 8 * 6 + 5 * 6px;
+    }
+    .gcwkds {
+      font-size: 8px;
+      color: #e4ebe6;
+    }
+    .gcmnts {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+    }
+    .gcmtnm {
+      width: 10px;
+      text-align: center;
+      font-size: 8px;
+      margin: 0.5px;
+      color: #e4ebe6;
+    }
+    .gccntbc {
+      width: 8px;
+      height: 8px;
+      margin: 1.5px;
+      border-radius: 2px;
+    }
   }
-  .gcwks {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    margin-top: 12px;
-    justify-content: space-around;
-    height: 8 * 6 + 5 * 6px;
+  .skills-container {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 24px 24px 24px;
+    .skill-logo {
+      max-width: 20px;
+      max-height: 20px;
+    }
+    button {
+      padding: 16px;
+    }
   }
-  .gcwkds {
-    font-size: 8px;
-    color: #e4ebe6;
-  }
-  .gcmnts {
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-  }
-  .gcmtnm {
-    width: 10px;
-    text-align: center;
-    font-size: 8px;
-    margin: 0.5px;
-    color: #e4ebe6;
-  }
-  .gccntbc {
-    width: 8px;
-    height: 8px;
-    margin: 1.5px;
-    border-radius: 2px;
-  }
-}
-.skills-container {
-grid-template-columns: repeat(4, 1fr);
-}
 }
