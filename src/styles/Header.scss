@@ -100,13 +100,14 @@
   }
   .header-section h2 {
     font-size: clamp(2vw, 5.2vw, 16.67rem);
-    margin: 12rem 0;
+    margin: 16rem 0 14rem 0;
   }
   .shortbio {
     font-size: 0.85rem;
     position: relative;
     width: 100%;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.15rem;
+        color: #ffffffad;
   }
   .resume-link {
     width: 100%;
