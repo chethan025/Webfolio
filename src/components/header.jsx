@@ -57,7 +57,7 @@ export default function Header() {
             <span className='vw'>Know More about</span>
             <span className='rmn'><ShinyText text="ME" disabled={false} speed={3} /></span>
             <span className='vwd'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="61" height="57" viewBox="0 0 81 77" fill="none">
+              <svg className="arrow-svgs" xmlns="http://www.w3.org/2000/svg" width="61" height="57" viewBox="0 0 81 77" fill="none">
                 <path d="M40.5 0.5C62.5666 0.5 80.5 17.489 80.5 38.5C80.5 59.511 62.5666 76.5 40.5 76.5C18.4334 76.5 0.5 59.511 0.5 38.5C0.5 17.489 18.4334 0.5 40.5 0.5Z" stroke="white"/>
                 <path d="M31.0031 30.1475L49.9571 46.6397" stroke="white"/>
                 <path d="M48.5925 33.2082L50.0128 47.1366" stroke="white"/>

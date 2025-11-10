@@ -113,37 +113,24 @@ export default function GithubContributions() {
         )}
       </select>
 
-      <div style={{ display: "flex", alignItems: "flex-start" }}>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            marginRight: 5,
-            justifyContent: "space-around",
-            height: 12 * 7 + 6 * 6,
-          }}
-        >
+      <div className="gcbox">
+        <div className="gcwks">
+          
           {weekdays.map((day, i) => (
-            <div key={i} style={{ fontSize: 10, color: "#E4EBE6" }}>
+            <div className="gcwkds" key={i}>
               {day}
             </div>
           ))}
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div className="gcmnts">
           <div style={{ display: "flex", marginBottom: 2, marginLeft: 14 }}>
             {calendar.map((_, i) => {
               const label = monthLabels.find((m) => m.index === i);
               return (
                 <div
+                className="gcmtnm"
                   key={i}
-                  style={{
-                    width: 14,
-                    textAlign: "center",
-                    fontSize: 10,
-                    margin: .5,
-                    color: "#E4EBE6",
-                  }}
                 >
                   {label ? label.month : ""}
                 </div>
@@ -156,14 +143,11 @@ export default function GithubContributions() {
               <div key={i} style={{ display: "flex", flexDirection: "column" }}>
                 {week.contributionDays.map((day, j) => (
                   <div
+                  className="gccntbc"
                     key={j}
                     title={`${day.date}: ${day.contributionCount} contributions`}
                     style={{
                       backgroundColor: day.color,
-                      width: 12,
-                      height: 12,
-                      margin: 1.5,
-                      borderRadius: 2,
                     }}
                   />
                 ))}

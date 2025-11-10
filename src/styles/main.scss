@@ -58,7 +58,7 @@ body{
 @include respond(md) {
     .section{
     height:100%;
-    margin: 0 0rem 1rem;
+    margin: 0 .8rem 1rem;
     padding: 1rem 0;
     font-family: $font-montserrat;
 }

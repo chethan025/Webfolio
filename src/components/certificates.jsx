@@ -8,7 +8,7 @@ export const Certificatess = () => {
       className={"abc0 " + (visible ? "abc1 animate__animated animate__bounceIn" : "")}
       >
         <Carousel
-            baseWidth={960}
+        className="certificates-carousel"
             autoplay={true}
             autoplayDelay={3000}
             pauseOnHover={true}

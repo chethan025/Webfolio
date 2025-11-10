@@ -7,6 +7,7 @@ export const projects = () => {
     const items = data.projects;
   return (
     <>
+    <h2>Projects</h2>
         <ProjectGrid 
             items={items}
             radius={300}
