@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     <div className="section footer-container">
-        <p>footer</p>
+        <p>All Credits Me!</p>
     </div>
     </>
   )
