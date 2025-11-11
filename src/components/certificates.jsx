@@ -22,7 +22,7 @@ export const Certificatess = () => {
 
   return (
     <div
-      style={{ height: '600px', position: 'relative' }}
+      style={{ position: 'relative' }}
       ref={ref}
       className={
         "abc0 " +
@@ -32,7 +32,7 @@ export const Certificatess = () => {
       <Carousel
         className="certificates-carousel"
         baseWidth={baseWidth}  // now this works
-        autoplay={false}
+        autoplay={true}
         autoplayDelay={3000}
         pauseOnHover={true}
         loop={true}

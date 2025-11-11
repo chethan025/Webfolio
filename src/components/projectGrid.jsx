@@ -144,7 +144,7 @@ export const ProjectGrid = ({
             <div
               className="modalbg"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.19), #2b2b2b), url(${selectedCard.image})`,
+                backgroundImage: `url(${selectedCard.image})`,
               }}
             ></div>
             <div className="modadetail-box">

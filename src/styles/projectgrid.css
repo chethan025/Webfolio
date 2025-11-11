@@ -32,11 +32,11 @@
     padding: 1rem;
   }
 }
-.abc0{
-    opacity: 0;
+.abc0 {
+  opacity: 0;
 }
-.abc1{
-    opacity: 1 !important;
+.abc1 {
+  opacity: 1 !important;
 }
 
 .chroma-card {
@@ -61,10 +61,14 @@
 }
 
 .chroma-card::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 50%);
+  background: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+    var(--spotlight-color),
+    transparent 50%
+  );
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -114,7 +118,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 3;/* 
+  z-index: 3; /* 
   backdrop-filter: grayscale(1) brightness(0.78);
   -webkit-backdrop-filter: grayscale(1) brightness(0.78); */
   background: rgba(0, 0, 0, 0.001);
@@ -147,7 +151,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 4;/* 
+  z-index: 4; /* 
   backdrop-filter: grayscale(1) brightness(0.78);
   -webkit-backdrop-filter: grayscale(1) brightness(0.78); */
   background: rgba(0, 0, 0, 0.001);
@@ -179,8 +183,6 @@
   transition: opacity 0.25s ease;
 }
 
-
-
 /* Modal styles */
 .modal-backdrop {
   position: fixed;
@@ -195,7 +197,8 @@
 
 .modal-content {
   position: relative;
-  background: #2b2b2b;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
   border-radius: 20px;
   padding: 0 0 2rem;
   width: 90%;
@@ -238,10 +241,12 @@
   color: #ccc;
 }
 
-
-.modalbg{
+.modalbg {
   width: 100%;
-  height:5rem;
+  height: 5rem;
+
+  mask-image: linear-gradient(to bottom, black, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent);
   background-position: center;
   background-size: cover;
 }

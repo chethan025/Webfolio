@@ -1,46 +1,118 @@
-@use 'main';
-@import './mixins';
-
+@use "main";
+@import "./mixins";
 .navbar {
-    position: fixed;
-    width: calc(100% - 4rem);
-    padding: 1rem 2rem;
-    margin: 0 1rem;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: transparent;
     border-radius: main.$btnbdrds2;
-    transition: background-color 0.3s ease-in-out;
-    z-index: 1000000;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
 
-    ul {
-        display: flex;
-        list-style: none;
-    }
+  &.solid {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(5px);
+  }
 
-    a {
-        text-decoration: none;
-        color: main.$color;
+  .nav-inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+  }
+
+  // Desktop nav
+  .desktop-menu {
+    display: flex;
+    gap: 1.5rem;
+
+    li {
+      list-style: none;
+
+      a {
+       color: main.$color;
         border: main.$btnbrdr1;
         border-radius: main.$btnbdrds1;
+        text-decoration: none;
+        font-size: 0.9rem;
         padding: main.$btnpdn1;
         margin: main.$mrgn1;
-        font-size: .8rem;
+      }
     }
+  }
 
-    &.solid {
-        background-color: main.$navbg;
-        // position: sticky;
-    }
+  // Hamburger
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+  }
+}
+.drawer{
+    display: none;
 }
 
+// MOBILE BEHAVIOR
+@media (max-width: 768px) {
+   
+ 
 
-@include respond(lg) {
-
+  .navbar {
+    .desktop-menu {
+      display: none; // now ONLY desktop menu is hidden on mobile
+    }
+    .nav-inner {
+justify-content: start ;
 }
 
-@include respond(md) {
-    .navbar{
-        display: none;
+    .hamburger {
+      display: block; // now hamburger actually shows
     }
+  }
+  .drawer {
+    display: block;
+  }
+}
+
+// DRAWER
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100vh;
+  background: black;
+  color: white;
+  padding: 2rem;
+  z-index: 9999;
+
+  .close-btn {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+
+  .drawer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    li {
+      list-style: none;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+    }
+  }
 }

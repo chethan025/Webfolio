@@ -126,7 +126,7 @@ export default function GithubContributions() {
         </div>
 
         <div className="gcmnts">
-          <div style={{ display: "flex", marginBottom: 2, marginLeft: 14 }}>
+          <div style={{ display: "flex", marginBottom: 2, marginLeft: 14, width: "max-content" }}>
             {calendar.map((_, i) => {
               const label = monthLabels.find((m) => m.index === i);
               return (
