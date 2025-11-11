@@ -1,9 +1,5 @@
 @import "./mixins";
-.section {
-  .contact-container {
-    height: 36vw;
-  }
-}
+
 .contact-container {
   display: grid;
   place-items: center;
@@ -47,4 +43,33 @@
     background: #181818;
     border: 1px solid #ffffff6b;
   }
+}
+
+
+@include respond(md) {
+    .contact-container {
+  height: 100% !important;
+  .c-form {
+    width: 90%;
+    color: #ffffffde;
+  label {
+    color: #ffffffde;   
+    letter-spacing: 0.1rem;
+  }
+  input {
+    color: #ffffffde;   
+    background: transparent;
+    border: 1px solid #ffffff3c;
+    width: 100%;
+    height: 3.4rem;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    margin: 1rem 0;
+  }
+  .gh{
+    width: 100% !important;
+    margin: 1rem 0;
+  }
+}
+}
 }
