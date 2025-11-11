@@ -38,7 +38,7 @@ export default function GithubRepo({ username, repo }) {
       onMouseLeave={(e) =>
         (e.currentTarget.style.transform = "scale(1)")
       }
-      style={{display: "block", width: "22rem", padding:"1rem 2rem 2rem", border: "1px solid #eee", borderRadius: 8,}}
+      style={{display: "block", width: "18rem", padding:"1rem 2rem 2rem", border: "1px solid #eee", borderRadius: 8,}}
     >
       <h3 className="grh3">{data.name}</h3>
 

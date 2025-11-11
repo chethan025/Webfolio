@@ -1,7 +1,7 @@
 import React from 'react'
-
-export default function Footer() {
+import Footer from '../components/footer.jsx';
+export default function footter() {
   return (
-    <div className='section'>Footer</div>
+    <Footer />
   )
 }

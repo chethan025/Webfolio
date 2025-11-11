@@ -1,0 +1,50 @@
+@import "./mixins";
+.section {
+  .contact-container {
+    height: 36vw;
+  }
+}
+.contact-container {
+  display: grid;
+  place-items: center;
+  height: 36vw !important;
+}
+.c-form {
+    width: 50%;
+    color: #ffffffde;
+  label {
+    color: #ffffffde;   
+    letter-spacing: 0.1rem;
+  }
+  input {
+    color: #ffffffde;   
+    background: transparent;
+    border: 1px solid #ffffff3c;
+    width: 100%;
+    height: 3.4rem;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    margin: 1rem 0;
+  }
+  .gh{
+    width: 30% !important;
+    margin: 1rem 16px;
+  }
+  textarea {
+    color: #ffffffde;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ffffff3c;
+    padding: 1rem;
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+  }
+
+  .c-btn{
+    font-size: 1rem;
+    padding:  0.8rem 2rem;
+    color: #ffffffde;
+    background: #181818;
+    border: 1px solid #ffffff6b;
+  }
+}

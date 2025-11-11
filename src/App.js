@@ -3,7 +3,7 @@ import About from "./sections/about";
 import Projects from "./sections/projects";
 import Certificates from "./sections/certificates";
 import Contact from "./sections/contact";
-import Footer from "./sections/footer";
+import Footter from "./sections/footer";
 import './styles/main.scss';
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react"
@@ -21,7 +21,7 @@ export default function App() {
       <Projects />
       <Certificates />
       <Contact />
-      <Footer />
+      <Footter />
     </div>
   );
 }
