@@ -234,7 +234,12 @@
             "github": "https://github.com/chethan025/webfolio",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/Webfolio/"
+            "url": "https://chethan025.github.io/Webfolio/",
+            "repo": "Webfolio",
+            "username": "chethan025",
+            "skills": [
+                "React JS", "SCSS", "Framer-Motion"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
@@ -243,7 +248,12 @@
             "github": "https://github.com/chethan025/Deepockets/",
             "borderColor": "#A43BA3",
             "gradient": "linear-gradient(180deg, #a43ba27b, #000)",
-            "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html"
+            "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html",
+            "repo": "Deepockets",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img3",
@@ -252,7 +262,13 @@
             "github": "https://github.com/XAGON-org/Xagon-Themes",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://xagon.co.in/"
+            "url": "https://xagon.co.in/",
+            "repo": "Xagon-Themes",
+            "username": "XAGON-org",
+            "skills": [
+                "Shopify", "Shopify Liquid", "Theme Customization", "Email Marketing", "App Integration", "Payment Integration",
+                "Product Management" 
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpeg?img1",
@@ -261,7 +277,12 @@
             "github": "https://github.com/chethan025/CODSOFT/tree/main/Landing%20Page",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html"
+            "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html",
+            "repo": "CODSOFT",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpeg?img1",
@@ -270,7 +291,12 @@
             "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Gym%20Website",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html"
+            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html",
+            "repo": "NexaByte_Internship_Task",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698590019223.jpeg?img1",
@@ -279,7 +305,12 @@
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html"
+            "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html",
+            "repo": "Mini-projects",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS", "Javascript"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
@@ -288,7 +319,12 @@
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html"
+            "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html",
+            "repo": "Mini-projects",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS", "Javascript"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
@@ -297,7 +333,12 @@
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
             "borderColor": "#ffffffff",
             "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html"
+            "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html",
+            "repo": "Mini-projects",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS", "Javascript"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
@@ -306,7 +347,12 @@
             "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html"
+            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html",
+            "repo": "NexaByte_Internship_Task",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS", "Javascript"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
@@ -315,7 +361,12 @@
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html"
+            "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html",
+            "repo": "Mini-projects",
+            "username": "chethan025",
+            "skills": [
+                "HTML", "CSS", "Javascript"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
@@ -324,7 +375,12 @@
             "github": "https://github.com/chethan025/cryptohorizon",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://crypto-horizon.netlify.app/"
+            "url": "https://crypto-horizon.netlify.app/",
+            "repo": "cryptohorizon",
+            "username": "chethan025",
+            "skills": [
+                "React JS", "Bootstrap", "API"
+            ]
         },
         {
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
@@ -333,7 +389,12 @@
             "github": "@sarahjohnson",
             "borderColor": "#ffffffba",
             "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson"
+            "url": "https://github.com/sarahjohnson",
+            "repo": "Webfolio",
+            "username": "chethan025",
+            "skills": [
+                "React JS", "SCSS", "Framer-Motion"
+            ]
         }
         
     ],

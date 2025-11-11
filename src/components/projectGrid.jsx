@@ -1,7 +1,10 @@
 import { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import "../styles/projectgrid.css";
+import "../styles/projectModal.scss"
 import useScrollReveal from "./scrollReveal";
+import GithubRepos from "./repo";
+
 export const ProjectGrid = ({
   items,
   className = "",
@@ -20,6 +23,17 @@ export const ProjectGrid = ({
   const pos = useRef({ x: 0, y: 0 });
 
   const [selectedCard, setSelectedCard] = useState(null);
+
+  
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://tarptaeya.github.io/repo-card/repo-card.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   useEffect(() => {
     const el = rootRef.current;
@@ -148,26 +162,34 @@ export const ProjectGrid = ({
               }}
             ></div>
             <div className="modadetail-box">
+              <div className="modal-tcontent">
               <h2 className="modal-title">{selectedCard.title}</h2>
-              <p>{selectedCard.description}</p>
-              <a
-                href={selectedCard.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="modal-link"
-              >
-                {" "}
-                github repo{" "}
-              </a>
-              <a
-                href={selectedCard.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="modal-link"
-              >
-                {" "}
-                live demo{" "}
-              </a>
+              <p className="modal-descp">{selectedCard.description}</p>
+            </div>
+              <div className="modal-skills-tags">Skills Used:
+                {selectedCard.skills.map((tag, i) => (
+                <span key={i} className="project-tag">
+                  {tag}
+                </span>
+              ))}
+
+              </div>
+              <div className="modal-repo">
+                <GithubRepos username={selectedCard.username} repo={selectedCard.repo} />
+              </div>
+              <div className="modal-demo">
+                <a
+                  href={selectedCard.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="modal-link"
+                >
+                  {" "}
+                  live demo{" "}
+                </a>
+              </div>
+              
+              <div className="modal-skills-tags">Skills:</div>
             </div>
           </div>
         </div>

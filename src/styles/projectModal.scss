@@ -1,0 +1,67 @@
+@import "./mixins";
+.modadetail-box {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(max-content, auto);
+  grid-template-areas:
+    "title repo"
+    "demo skills";
+  gap: 1rem;
+
+  .modal-tcontent {
+    grid-area: title;
+    .modal-descp {
+      color: #808080c7;
+      letter-spacing: 0.05rem;
+      line-height: 1.4rem;
+      max-height: 7vw;
+      overflow: auto;
+    }
+  }
+  .modal-skills-tags {
+    grid-area: skills;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    span {
+      height: max-content;
+    }
+  }
+  .modal-repo {
+    grid-area: repo;
+    padding: 1rem 2rem;
+  }
+  .modal-demo {
+    grid-area: demo;
+    margin-top: 2rem;
+    a {
+      padding: 1rem 2rem;
+      border: 2px solid #ffffff6b;
+      border-radius: 16px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+@include respond(md) {
+  .modadetail-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(max-content, auto);
+    grid-template-areas:
+      "title"
+      "skills"
+      "repo"
+      "demo ";
+    .modal-repo {
+      padding: 1rem;
+    }
+    .modal-tcontent {
+      grid-area: title;
+      .modal-descp {
+        max-height: 22vw;
+        overflow-y: auto;
+      }
+    }
+  }
+}
