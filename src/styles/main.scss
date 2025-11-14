@@ -37,6 +37,7 @@ body{
     background-color: $bgclr;
     color: $color;
     margin: 1rem;
+    scroll-behavior: smooth;
 }
 .section{
     height:50vw;
