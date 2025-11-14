@@ -13,8 +13,8 @@ export default function Header() {
   const { ref, visible } = useScrollReveal(0.5);
   return (
     <>
-      <div id="header-section header" className="section header-section ">
-        <h2 ref={ref} className={"webheader " + (visible ? "animate__animated animate__fadeInDown" : "")}>
+      <div id="header-section" className="section header-section ">
+        <h2 ref={ref} id="home" className={"webheader " + (visible ? "animate__animated animate__fadeInDown" : "")}>
           <MorphTextLoop
             from="WEB DEVELOPER"
             to="PORTFOLIO"
