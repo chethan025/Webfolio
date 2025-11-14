@@ -299,7 +299,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698590019223.jpeg?img1",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpeg?img1",
             "title": "Tip Calculator",
             "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
             "title": "Guessing Game",
             "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
@@ -327,7 +327,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
             "title": "Editor",
             "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
@@ -355,7 +355,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img2",
             "title": "Time Ripen",
             "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
@@ -380,20 +380,6 @@
             "username": "chethan025",
             "skills": [
                 "React JS", "Bootstrap", "API"
-            ]
-        },
-        {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
-            "title": "Portfolio",
-            "description": "Frontend Developer",
-            "github": "@sarahjohnson",
-            "borderColor": "#ffffffba",
-            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://github.com/sarahjohnson",
-            "repo": "Webfolio",
-            "username": "chethan025",
-            "skills": [
-                "React JS", "SCSS", "Framer-Motion"
             ]
         }
         
