@@ -361,7 +361,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img2",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/crypto.jpeg?img2",
             "title": "Crypto Horizon",
             "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",
             "github": "https://github.com/chethan025/cryptohorizon",
