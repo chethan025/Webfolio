@@ -6,7 +6,7 @@ import '../styles/main-about.scss'
 
 export default function About() {
   return (
-    <div className='section'>
+    <div id='about' className='section'>
       <div className='about-container grid'>
         <AboutMe />
         <Skills />

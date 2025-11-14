@@ -18,7 +18,7 @@ function Contact() {
   };
   return (
     <>
-    <div className='section contact-container'>
+    <div id='contact' className='section contact-container'>
         <h2>Contact me</h2>
         <form className='c-form' onSubmit={onSubmit}>
             <label className='c-fnm-lbl'  htmlFor="fnm">Front Name:</label>
