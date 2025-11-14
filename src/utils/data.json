@@ -28,9 +28,7 @@
                 "name": "Shopify",
                 "description": "Experienced in developing and customizing Shopify e-commerce stores, including theme development, app integration, and performance optimization.",
                 "projects": [
-                    "E-commerce Store for Fashion Brand",
-                    "Custom Shopify Theme Development",
-                    "Shopify App Integration for Payment Gateway"
+                    "Xagon"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify.png",
                 "type": "software",
@@ -41,9 +39,7 @@
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify-liquid.png",
                 "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
                 "projects": [ 
-                    "Custom Product Page with Liquid",
-                    "Dynamic Collection Page Development",
-                    "Liquid Scripting for Shopify Theme"
+                    "Xagon"
                 ],
                 "type": "Lanquage",
                 "skill_type": "tools"
@@ -53,9 +49,7 @@
                 "name": "React",
                 "description": "Builds fast, responsive, and interactive frontends with React, focusing on reusable components and smooth user interfaces.",
                 "projects": [
-                    "Personal Portfolio Website",
-                    "E-commerce Platform with React",
-                    "React Dashboard for Data Visualization"
+                    "Webfolio"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/react.png",
                 "type": "Lanquage",
@@ -65,9 +59,7 @@
                 "name": "Node.js",
                 "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
                 "projects": [   
-                    "RESTful API for E-commerce Application",
-                    "Real-time Chat Application with Node.js",
-                    "Backend Development for Inventory Management System"
+                    "Xbase"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
                 "type": "Lanquage",
@@ -77,7 +69,7 @@
                 "name": "Express.js",
                 "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xbase"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Vector.png",
                 "type": "Lanquage",
@@ -87,7 +79,7 @@
                 "name": "MongoDB",
                 "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xbase"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mongodb.png",
                 "type": "software",
@@ -97,7 +89,7 @@
                 "name": "Git",
                 "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/git.png",
                 "type": "software",
@@ -107,7 +99,7 @@
                 "name": "GitHub",
                 "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/github-white.png",
                 "type": "software",
@@ -117,7 +109,7 @@
                 "name": "HTML",
                 "description": "Creates semantic, accessible, and SEO-friendly page structures for modern web applications.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/html.png",
                 "type": "Lanquage",
@@ -127,7 +119,7 @@
                 "name": "CSS",
                 "description": "Crafts visually engaging and responsive layouts using advanced CSS techniques and animations.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/css.png",
                 "type": "Lanquage",
@@ -137,7 +129,7 @@
                 "name": "SCSS",
                 "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Webfolio"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/scss.png",
                 "type": "Lanquage",
@@ -147,7 +139,7 @@
                 "name": "JavaScript",
                 "description": "Develops dynamic web experiences with JavaScript, applying modern ES6+ practices for better performance and clarity.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Mini-projects","Calculator","Xagon"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/javascript.png",
                 "type": "Lanquage",
@@ -157,7 +149,7 @@
                 "name": "Figma",
                 "description": "Designs clean, user-centered interfaces and prototypes, bridging the gap between UI design and front-end development.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/figma.png",
                 "type": "software",
@@ -167,7 +159,7 @@
                 "name": "PHP",
                 "description": "Builds and maintains dynamic websites and server-side logic with PHP, including integration with MySQL databases.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "upcoming project"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/php.png",
                 "type": "Lanquage",
@@ -177,7 +169,7 @@
                 "name": "MySQL",
                 "description": "Designs relational databases and writes optimized queries for data-driven applications.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "upcoming project"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mysql.png",
                 "type": "Lanquage",
@@ -187,7 +179,7 @@
                 "name": "VS Code",
                 "description": "Efficiently codes and debugs projects using Visual Studio Code with a customized, productivity-focused workflow.",
                 "projects": [
-                    "jjdfsdb","jdhfsdbvsb"
+                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
                 ],
                 "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/vscode.png",
                 "type": "software",
@@ -256,7 +248,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon (1).jpg?img3",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
             "title": "Xagon",
             "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
             "github": "https://github.com/XAGON-org/Xagon-Themes",
@@ -299,7 +291,7 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpeg?img1",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
             "title": "Tip Calculator",
             "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
