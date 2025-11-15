@@ -220,6 +220,7 @@
     ],
     "projects": [
         {
+            "id": "grds10",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
             "title": "Portfolio",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -234,6 +235,7 @@
             ]
         },
         {
+            "id": "grds4",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
             "title": "Deepockets",
             "description": "Deepockets is a sleek esports and event platform designed to turn viewers into active participants. It lets users register for live competitions, earn free NFTs, and experience gamified engagement instead of just watching others play. The platform blends entertainment, competition, and blockchain rewards through a clean, modern interface. With its focus on live events and digital collectibles, DeePockets brings a fresh edge to the esports and event space—where every user gets a chance to play, win, and own something real.",
@@ -248,6 +250,7 @@
             ]
         },
         {
+            "id": "grds1",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
             "title": "Xagon",
             "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
@@ -263,6 +266,7 @@
             ]
         },
         {
+            "id": "grds6",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpeg?img1",
             "title": "Trending Sportswear",
             "description": "I built CODSOFT’s modern landing experience with a clean, responsive HTML + CSS + SCSS setup, combining tradition and trending design aesthetics. The hero section announces a “Tradition meets Trends” theme, followed by a dynamic “Popular Brands” carousel featuring top athletic labels like PUMA, adidas, Nike, and Jordan. There’s a clear call-to-action inviting visitors to learn more or join the community via login or signup, along with dedicated sections for user reviews, brand story, and peer testimonials. The page is optimized for performance and usability, and acts as a brand gateway linking products, about us, and login flows seamlessly.",
@@ -277,6 +281,7 @@
             ]
         },
         {
+            "id": "grds5",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpeg?img1",
             "title": "GYM WEB",
             "description": "I built a fully responsive gym-and-fitness landing site using clean HTML + CSS + SCSS, focusing on both visual appeal and usability. It features clearly laid out sections for classes (cardio, strength, mind-body, sports, special workouts), pricing tiers (Basic / Gold / Premium with monthly discounts), and a blog section to share fitness journeys and build community. There is also a contact form to allow visitors to reach out easily, plus pages for FAQs, privacy policy, and support. The design is polished with UI elements derived from curated free-resource assets, and everything is handcrafted by me for a cohesive and professional feel.",
@@ -291,6 +296,7 @@
             ]
         },
         {
+            "id": "grds2",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
             "title": "Tip Calculator",
             "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
@@ -305,6 +311,7 @@
             ]
         },
         {
+            "id": "grds3",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
             "title": "Guessing Game",
             "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
@@ -319,7 +326,8 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
+            "id": "grds11",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img1",
             "title": "Editor",
             "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
@@ -333,6 +341,7 @@
             ]
         },
         {
+            "id": "grds9",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
             "title": "Calculator",
             "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
@@ -347,7 +356,8 @@
             ]
         },
         {
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img2",
+            "id": "grds7",
+            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img2",
             "title": "Time Ripen",
             "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
             "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
@@ -361,6 +371,7 @@
             ]
         },
         {
+            "id": "grds8",
             "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/crypto.jpg?img2",
             "title": "Crypto Horizon",
             "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",

@@ -126,7 +126,7 @@ export const ProjectGrid = ({
               ref={(el) => (refs.current[i] = el)}
               key={i}
               className={
-                "abc0 chroma-card " +
+                `abc0 ${c.id} chroma-card ` +
                 (visibleList[i]
                   ? "abc1 animate__animated animate__zoomIn"
                   : "")
