@@ -1,9 +1,15 @@
-
+@use "./mixins" as *;
 
 
 .gingerpotato{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: flex-start;
     gap: 2rem;
+}
+
+@include respond(md) {
+    .gingerpotato{
+    grid-template-columns: repeat(2, 1fr);
+}
 }
