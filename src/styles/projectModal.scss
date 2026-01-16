@@ -1,4 +1,5 @@
-@import "./mixins";
+@use "./mixins" as *;
+
 .modadetail-box {
   display: grid;
   padding: 2rem;

@@ -1,13 +1,13 @@
-import React from 'react'
-import "../styles/footer.scss"
+import React from "react";
+import "../styles/footer.scss";
 function Footer() {
   return (
     <>
-    <div className="section footer-container">
-        <p>All Credits Me!</p>
-    </div>
+      <div className="section footer-container">
+        <p>All credits ME!</p>
+      </div>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

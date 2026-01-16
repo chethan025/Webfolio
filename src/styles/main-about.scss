@@ -1,5 +1,6 @@
 @use "main";
-@import "./mixins";
+@use "./mixins" as *;
+
 .grid {
   display: grid;
 }

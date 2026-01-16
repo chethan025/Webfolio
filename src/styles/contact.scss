@@ -1,4 +1,5 @@
-@import "./mixins";
+@use "./mixins" as *;
+
 
 .contact-container {
   display: grid;

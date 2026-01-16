@@ -40,7 +40,7 @@ export default function GithubContributions() {
         const response = await fetch("https://api.github.com/graphql", {
           method: "POST",
           headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
+            Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ query }),

@@ -1,4 +1,5 @@
-@import './mixins';
+@use "./mixins" as *;
+
 .certifactes{
     display: grid;
     place-items: center;

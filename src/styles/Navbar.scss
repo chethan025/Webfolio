@@ -1,5 +1,6 @@
 @use "main";
-@import "./mixins";
+@use "./mixins" as *;
+
 .navbar {
   position: fixed;
   top: 0;

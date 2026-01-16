@@ -1,550 +1,724 @@
 {
-    "personal_detailes": {
-        "name": "Chethan S",
-        "email": "chethans0250@gmail.com",
-        "dob": "25-feb-2004",
-        "age": 21,
-        "address": "Bangalore, India",
-        "phone": "+91 6363993184"
+  "personal_detailes": {
+    "name": "Chethan S",
+    "email": "chethans0250@gmail.com",
+    "dob": "25-feb-2004",
+    "age": 21,
+    "address": "Bangalore, India",
+    "phone": "+91 6363993184"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a passionate software developer with a keen interest in building scalable web applications and exploring new technologies. I love to solve complex problems and continuously learn to improve my skills.",
+    "bio": "I am a software developer with a strong foundation in web development and a passion for creating innovative solutions. I have experience in various programming languages and frameworks, and I am always eager to learn new technologies. My goal is to contribute to impactful projects and collaborate with like-minded individuals.",
+    "interests": [
+      "Shopify Development",
+      "Full Stack Development",
+      "Database Management",
+      "Web Development"
+    ],
+    "hobbies": [
+      "Coding",
+      "Reading Tech Blogs",
+      "Playing Video Games",
+      "Traveling"
+    ],
+    "skills": [
+      {
+        "name": "Shopify",
+        "description": "Experienced in developing and customizing Shopify e-commerce stores, including theme development, app integration, and performance optimization.",
+        "projects": ["Xagon"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Shopify Liquid",
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify-liquid.png",
+        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "projects": ["Xagon"],
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+
+      {
+        "name": "React",
+        "description": "Builds fast, responsive, and interactive frontends with React, focusing on reusable components and smooth user interfaces.",
+        "projects": ["Webfolio"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/react.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Node.js",
+        "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Express.js",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Vector.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mongodb.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Git",
+        "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/git.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "GitHub",
+        "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/github-white.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "HTML",
+        "description": "Creates semantic, accessible, and SEO-friendly page structures for modern web applications.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/html.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "CSS",
+        "description": "Crafts visually engaging and responsive layouts using advanced CSS techniques and animations.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/css.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "SCSS",
+        "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
+        "projects": ["Webfolio"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/scss.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "JavaScript",
+        "description": "Develops dynamic web experiences with JavaScript, applying modern ES6+ practices for better performance and clarity.",
+        "projects": ["Mini-projects", "Calculator", "Xagon"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/javascript.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Figma",
+        "description": "Designs clean, user-centered interfaces and prototypes, bridging the gap between UI design and front-end development.",
+        "projects": ["Xagon", "Webfolio", "Deepockets", "Gym website"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/figma.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "PHP",
+        "description": "Builds and maintains dynamic websites and server-side logic with PHP, including integration with MySQL databases.",
+        "projects": ["upcoming project"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/php.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "MySQL",
+        "description": "Designs relational databases and writes optimized queries for data-driven applications.",
+        "projects": ["upcoming project"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mysql.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "VS Code",
+        "description": "Efficiently codes and debugs projects using Visual Studio Code with a customized, productivity-focused workflow.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/vscode.png",
+        "type": "software",
+        "skill_type": "tools"
+      }
+    ],
+    "resume": {
+      "url": "#resume",
+      "text": "View Resume"
+    }
+  },
+  "contacts": [
+    {
+      "name": "Email",
+      "username": "chethans0250@gmail.com",
+      "url": "mailto:chethans0250@gmail.com",
+      "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/gmail.svg"
     },
-    "about": {
-        "title": "About Me",
-        "description": "I am a passionate software developer with a keen interest in building scalable web applications and exploring new technologies. I love to solve complex problems and continuously learn to improve my skills.",
-        "bio": "I am a software developer with a strong foundation in web development and a passion for creating innovative solutions. I have experience in various programming languages and frameworks, and I am always eager to learn new technologies. My goal is to contribute to impactful projects and collaborate with like-minded individuals.",
-        "interests": [
-            "Shopify Development",
-            "Full Stack Development",
-            "Database Management",
-            "Web Development"
-        ],
-        "hobbies": [
-            "Coding",
-            "Reading Tech Blogs",
-            "Playing Video Games",
-            "Traveling"
-        ],
-        "skills": [
-            {
-                "name": "Shopify",
-                "description": "Experienced in developing and customizing Shopify e-commerce stores, including theme development, app integration, and performance optimization.",
-                "projects": [
-                    "Xagon"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify.png",
-                "type": "software",
-                "skill_type": "tools"
-            },
-            {
-                "name": "Shopify Liquid",
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/shopify-liquid.png",
-                "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
-                "projects": [ 
-                    "Xagon"
-                ],
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            
-            {
-                "name": "React",
-                "description": "Builds fast, responsive, and interactive frontends with React, focusing on reusable components and smooth user interfaces.",
-                "projects": [
-                    "Webfolio"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/react.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "Node.js",
-                "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
-                "projects": [   
-                    "Xbase"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "Express.js",
-                "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
-                "projects": [
-                    "Xbase"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Vector.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "MongoDB",
-                "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
-                "projects": [
-                    "Xbase"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mongodb.png",
-                "type": "software",
-                "skill_type": "tools"
-            },
-            {
-                "name": "Git",
-                "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/git.png",
-                "type": "software",
-                "skill_type": "tools"
-            },
-            {
-                "name": "GitHub",
-                "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/github-white.png",
-                "type": "software",
-                "skill_type": "tools"
-            },
-            {
-                "name": "HTML",
-                "description": "Creates semantic, accessible, and SEO-friendly page structures for modern web applications.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/html.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "CSS",
-                "description": "Crafts visually engaging and responsive layouts using advanced CSS techniques and animations.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/css.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "SCSS",
-                "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
-                "projects": [
-                    "Webfolio"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/scss.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "JavaScript",
-                "description": "Develops dynamic web experiences with JavaScript, applying modern ES6+ practices for better performance and clarity.",
-                "projects": [
-                    "Mini-projects","Calculator","Xagon"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/javascript.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "Figma",
-                "description": "Designs clean, user-centered interfaces and prototypes, bridging the gap between UI design and front-end development.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/figma.png",
-                "type": "software",
-                "skill_type": "tools"
-            },
-            {
-                "name": "PHP",
-                "description": "Builds and maintains dynamic websites and server-side logic with PHP, including integration with MySQL databases.",
-                "projects": [
-                    "upcoming project"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/php.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "MySQL",
-                "description": "Designs relational databases and writes optimized queries for data-driven applications.",
-                "projects": [
-                    "upcoming project"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mysql.png",
-                "type": "Lanquage",
-                "skill_type": "tools"
-            },
-            {
-                "name": "VS Code",
-                "description": "Efficiently codes and debugs projects using Visual Studio Code with a customized, productivity-focused workflow.",
-                "projects": [
-                    "Xagon","Webfolio","Deepockets","Gym website","Mini-projects","Calculator"
-                ],
-                "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/vscode.png",
-                "type": "software",
-                "skill_type": "tools"
-            }
-        ],
-        "resume": {
-            "url": "#resume",
-            "text": "View Resume"
-        }
+    {
+      "name": "GitHub",
+      "username": "chethan025",
+      "url": "https://github.com/chethan025",
+      "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/github.svg"
     },
-    "contacts": [
+    {
+      "name": "WhatsApp",
+      "username": "+91 6363993184",
+      "url": "https://wa.me/916363993184",
+      "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/whatsapp.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "username": "chethan-s",
+      "url": "https://www.linkedin.com/in/chethan-s/",
+      "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/linkedin.svg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI/ML",
+      "projects": [
         {
-            "name": "Email",
-            "username": "chethans0250@gmail.com",
-            "url": "mailto:chethans0250@gmail.com",
-            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/gmail.svg"
+          "id": "1",
+          "image": "https://plus.unsplash.com/premium_photo-1723489242223-865b4a8cf7b8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D$0",
+          "title": "Lumnia",
+          "url": "https://lumnia.netlify.app/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4"
         },
         {
-            "name": "GitHub",
-            "username": "chethan025",
-            "url": "https://github.com/chethan025",
-            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/github.svg"
+          "id": "2",
+          "image": "https://i.pinimg.com/1200x/99/ca/5c/99ca5cf82cf12df8801f7b2bef38d325.jpg",
+          "title": "Prism",
+          "url": "#",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4"
         },
         {
-            "name": "WhatsApp",
-            "username": "+91 6363993184",
-            "url": "https://wa.me/916363993184",
-            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/whatsapp.svg"
-        },
-        {
-            "name": "LinkedIn",
-            "username": "chethan-s",
-            "url": "https://www.linkedin.com/in/chethan-s/",
-            "logo": "https://chethan025.github.io/Webfolio/src/assets/Icons/linkedin.svg"
+          "id": "3",
+          "image": "https://i.pinimg.com/736x/7c/15/39/7c1539cf7ff0207cb49ce0d338de1e5f.jpg",
+          "title": "Vertex",
+          "url": "#",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4"
         }
-        
-    ],
-    "projects": [
+      ]
+    },
+    {
+      "title": "React",
+      "projects": [
         {
-            "id": "grds10",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
-            "title": "Portfolio",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "github": "https://github.com/chethan025/webfolio",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/Webfolio/",
-            "repo": "Webfolio",
-            "username": "chethan025",
-            "skills": [
-                "React JS", "SCSS", "Framer-Motion"
-            ]
+          "id": "1",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+          "title": "Portfolio",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "github": "https://github.com/chethan025/webfolio",
+          "url": "https://chethan025.github.io/Webfolio/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Webfolio",
+          "username": "chethan025",
+          "skills": ["React JS", "SCSS", "Framer-Motion"]
         },
         {
-            "id": "grds4",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
-            "title": "Deepockets",
-            "description": "Deepockets is a sleek esports and event platform designed to turn viewers into active participants. It lets users register for live competitions, earn free NFTs, and experience gamified engagement instead of just watching others play. The platform blends entertainment, competition, and blockchain rewards through a clean, modern interface. With its focus on live events and digital collectibles, DeePockets brings a fresh edge to the esports and event space—where every user gets a chance to play, win, and own something real.",
-            "github": "https://github.com/chethan025/Deepockets/",
-            "borderColor": "#A43BA3",
-            "gradient": "linear-gradient(180deg, #a43ba27b, #000)",
-            "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html",
-            "repo": "Deepockets",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS"
-            ]
-        },
-        {
-            "id": "grds1",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
-            "title": "Xagon",
-            "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
-            "github": "https://github.com/XAGON-org/Xagon-Themes",
-            "borderColor": "#ffffffba",
-            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://xagon.co.in/",
-            "repo": "Xagon-Themes",
-            "username": "XAGON-org",
-            "skills": [
-                "Shopify", "Shopify Liquid", "Theme Customization", "Email Marketing", "App Integration", "Payment Integration",
-                "Product Management" 
-            ]
-        },
-        {
-            "id": "grds6",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpg?img1",
-            "title": "Trending Sportswear",
-            "description": "I built CODSOFT’s modern landing experience with a clean, responsive HTML + CSS + SCSS setup, combining tradition and trending design aesthetics. The hero section announces a “Tradition meets Trends” theme, followed by a dynamic “Popular Brands” carousel featuring top athletic labels like PUMA, adidas, Nike, and Jordan. There’s a clear call-to-action inviting visitors to learn more or join the community via login or signup, along with dedicated sections for user reviews, brand story, and peer testimonials. The page is optimized for performance and usability, and acts as a brand gateway linking products, about us, and login flows seamlessly.",
-            "github": "https://github.com/chethan025/CODSOFT/tree/main/Landing%20Page",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html",
-            "repo": "CODSOFT",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS"
-            ]
-        },
-        {
-            "id": "grds5",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpg?img1",
-            "title": "GYM WEB",
-            "description": "I built a fully responsive gym-and-fitness landing site using clean HTML + CSS + SCSS, focusing on both visual appeal and usability. It features clearly laid out sections for classes (cardio, strength, mind-body, sports, special workouts), pricing tiers (Basic / Gold / Premium with monthly discounts), and a blog section to share fitness journeys and build community. There is also a contact form to allow visitors to reach out easily, plus pages for FAQs, privacy policy, and support. The design is polished with UI elements derived from curated free-resource assets, and everything is handcrafted by me for a cohesive and professional feel.",
-            "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Gym%20Website",
-            "borderColor": "#ffffffff",
-            "gradient": "linear-gradient(145deg, #484848c7, #000)",
-            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html",
-            "repo": "NexaByte_Internship_Task",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS"
-            ]
-        },
-        {
-            "id": "grds2",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
-            "title": "Tip Calculator",
-            "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
-            "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
-            "borderColor": "#F7DF1E",
-            "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html",
-            "repo": "Mini-projects",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS", "Javascript"
-            ]
-        },
-        {
-            "id": "grds3",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
-            "title": "Guessing Game",
-            "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
-            "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
-            "borderColor": "#F7DF1E",
-            "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html",
-            "repo": "Mini-projects",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS", "Javascript"
-            ]
-        },
-        {
-            "id": "grds11",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img1",
-            "title": "Editor",
-            "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
-            "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
-            "borderColor": "#F7DF1E",
-            "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html",
-            "repo": "Mini-projects",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS", "Javascript"
-            ]
-        },
-        {
-            "id": "grds9",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
-            "title": "Calculator",
-            "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
-            "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
-            "borderColor": "#ffffffba",
-            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html",
-            "repo": "NexaByte_Internship_Task",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS", "Javascript"
-            ]
-        },
-        {
-            "id": "grds7",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img2",
-            "title": "Time Ripen",
-            "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
-            "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
-            "borderColor": "#F7DF1E",
-            "gradient": "linear-gradient(180deg, #F7DF1E8f, #000)",
-            "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html",
-            "repo": "Mini-projects",
-            "username": "chethan025",
-            "skills": [
-                "HTML", "CSS", "Javascript"
-            ]
-        },
-        {
-            "id": "grds8",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/crypto.jpg?img2",
-            "title": "Crypto Horizon",
-            "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",
-            "github": "https://github.com/chethan025/cryptohorizon",
-            "borderColor": "#ffffffba",
-            "gradient": "linear-gradient(180deg, #ffffffba, #000)",
-            "url": "https://crypto-horizon.netlify.app/",
-            "repo": "cryptohorizon",
-            "username": "chethan025",
-            "skills": [
-                "React JS", "Bootstrap", "API"
-            ]
+          "id": "2",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/crypto.jpg?img2",
+          "title": "Crypto Horizon",
+          "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",
+          "github": "https://github.com/chethan025/cryptohorizon",
+          "url": "https://crypto-horizon.netlify.app/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "cryptohorizon",
+          "username": "chethan025",
+          "skills": ["React JS", "Bootstrap", "API"]
         }
-        
-    ],
-    "certifications": [
+      ]
+    },
+    {
+      "title": "Shopify",
+      "projects": [
         {
-            "id": 1,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Coursera GC57YKWN3DWU.pdf"
-        },
-        {
-            "id": 2,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-e0b2af40-74da-44b6-a64c-fd4416cfc6e0.pdf"
-        },
-        {
-            "id": 3,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-b8a78ff1-b295-42d6-873a-e3faac622578.pdf"
-        },
-        {
-            "id": 4,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate _ Landscape-1.pdf"
-        },
-        {
-            "id": 5,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S-codsoft-internship-certificate.pdf"
-        },
-        {
-            "id": 6,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan S Internship Completion Certificate NexaByteOrg.pdf"
-        },
-        {
-            "id": 7,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/LetsUpgrade certificate.pdf"
-        },
-        {
-            "id": 8,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/72375666311520 (1).pdf"
-        },
-        {
-            "id":9,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391477-cdf62cd56b5c5818584780f8d3395cb9.pdf"
-        },
-        {
-            "id": 10,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391490-4e9be3365e540e168897e50918d279ab.pdf"
-        },
-        {
-            "id": 11,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan025.pdf"
-        },
-        {
-            "id": 12,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan_S20230627-191-180a22k.pdf"
-        },
-        {
-            "id": 13,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-67-x3j1t5.pdf"
-        },
-        {
-            "id": 14,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-70-14rcgb8.pdf"
-        },
-        {
-            "id": 15,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230717-67-1yztneh.pdf"
-        },
-        {
-            "id": 16,
-            "title": "Full Stack Web Development",
-            "issuer": "Coursera",
-            "date": "2023-01-15",
-            "url": "https://example.com/certifications/full-stack-web-development",
-            "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230723-69-1motc2x.pdf"
+          "id": "1",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
+          "title": "Xagon",
+          "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
+          "github": "https://github.com/XAGON-org/Xagon-Themes",
+          "url": "https://xagon.co.in/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Xagon-Themes",
+          "username": "XAGON-org",
+          "skills": [
+            "Shopify",
+            "Shopify Liquid",
+            "Theme Customization",
+            "Email Marketing",
+            "App Integration",
+            "Payment Integration",
+            "Product Management"
+          ]
         }
-    ],
-    "education": [
+      ]
+    },
+    {
+      "title": "Landing Pages",
+      "projects": [
         {
-            "skill_type": "degree",
-            "course": "Bachelor of Computer Applications (BCA)",
-            "institution": "Bangalore University",
-            "year": "2024",
-            "report_card-sem1": "https://example.com/education/btech-computer-science",
-            "report_card-sem1.2": "https://example.com/education/btech-computer-science-sem1-2",
-            "report_card-sem2": "https://example.com/education/btech-computer-science-sem2",
-            "report_card-sem2.2": "https://example.com/education/btech-computer-science-sem2-2",
-            "report_card-sem3": "https://example.com/education/btech-computer-science-sem3",
-            "report_card-sem4": "https://example.com/education/btech-computer-science-sem4",
-            "report_card-sem5": "https://example.com/education/btech-computer-science-sem5",
-            "report_card-sem6": "https://example.com/education/btech-computer-science-sem6"
+          "id": "1",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
+          "title": "Deepockets",
+          "description": "Deepockets is a sleek esports and event platform designed to turn viewers into active participants. It lets users register for live competitions, earn free NFTs, and experience gamified engagement instead of just watching others play. The platform blends entertainment, competition, and blockchain rewards through a clean, modern interface. With its focus on live events and digital collectibles, DeePockets brings a fresh edge to the esports and event space—where every user gets a chance to play, win, and own something real.",
+          "github": "https://github.com/chethan025/Deepockets/",
+          "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Deepockets",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS"]
         },
         {
-            "skill_type": "PUC",
-            "course": "Commrerce(CEBA - Computer Science, Economics, Business Studies, Accountancy)",
-            "institution": "New Baldwin Institution",
-            "year": "2021",
-            "url": "https://example.com/education/diploma-web-development"
+          "id": "2",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpg?img1",
+          "title": "Trending Sportswear",
+          "description": "I built CODSOFT’s modern landing experience with a clean, responsive HTML + CSS + SCSS setup, combining tradition and trending design aesthetics. The hero section announces a “Tradition meets Trends” theme, followed by a dynamic “Popular Brands” carousel featuring top athletic labels like PUMA, adidas, Nike, and Jordan. There’s a clear call-to-action inviting visitors to learn more or join the community via login or signup, along with dedicated sections for user reviews, brand story, and peer testimonials. The page is optimized for performance and usability, and acts as a brand gateway linking products, about us, and login flows seamlessly.",
+          "github": "https://github.com/chethan025/CODSOFT/tree/main/Landing%20Page",
+          "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "CODSOFT",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS"]
         },
         {
-            "skill_type": "SSLC",
-            "course": "Secondary School Leaving Certificate",
-            "institution": "New Standard English School",
-            "year": "2019",
-            "url": "https://example.com/education/sslc"
+          "id": "3",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpg?img1",
+          "title": "GYM WEB",
+          "description": "I built a fully responsive gym-and-fitness landing site using clean HTML + CSS + SCSS, focusing on both visual appeal and usability. It features clearly laid out sections for classes (cardio, strength, mind-body, sports, special workouts), pricing tiers (Basic / Gold / Premium with monthly discounts), and a blog section to share fitness journeys and build community. There is also a contact form to allow visitors to reach out easily, plus pages for FAQs, privacy policy, and support. The design is polished with UI elements derived from curated free-resource assets, and everything is handcrafted by me for a cohesive and professional feel.",
+          "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Gym%20Website",
+          "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "NexaByte_Internship_Task",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS"]
         }
-    ]
+      ]
+    },
+    {
+      "title": "JS Mini Projects",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
+          "title": "Tip Calculator",
+          "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
+          "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
+          "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Mini-projects",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS", "Javascript"]
+        },
+        {
+          "id": "2",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
+          "title": "Guessing Game",
+          "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
+          "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
+          "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Mini-projects",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS", "Javascript"]
+        },
+        {
+          "id": "3",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img1",
+          "title": "Editor",
+          "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
+          "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
+          "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Mini-projects",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS", "Javascript"]
+        },
+        {
+          "id": "4",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
+          "title": "Calculator",
+          "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
+          "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
+          "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "NexaByte_Internship_Task",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS", "Javascript"]
+        },
+        {
+          "id": "grds7",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img2",
+          "title": "Time Ripen",
+          "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
+          "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
+          "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Mini-projects",
+          "username": "chethan025",
+          "skills": ["HTML", "CSS", "Javascript"]
+        }
+      ]
+    }
+  ],
+  "projectss": [
+    {
+      "id": "grds10",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Portfolio.jpg?img1",
+      "title": "Portfolio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "github": "https://github.com/chethan025/webfolio",
+      "borderColor": "#ffffffff",
+      "gradient": "linear-gradient(145deg, #484848c7, #000)",
+      "url": "https://chethan025.github.io/Webfolio/",
+      "repo": "Webfolio",
+      "username": "chethan025",
+      "skills": ["React JS", "SCSS", "Framer-Motion"]
+    },
+    {
+      "id": "grds4",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Deepockets.jpg?img2",
+      "title": "Deepockets",
+      "description": "Deepockets is a sleek esports and event platform designed to turn viewers into active participants. It lets users register for live competitions, earn free NFTs, and experience gamified engagement instead of just watching others play. The platform blends entertainment, competition, and blockchain rewards through a clean, modern interface. With its focus on live events and digital collectibles, DeePockets brings a fresh edge to the esports and event space—where every user gets a chance to play, win, and own something real.",
+      "github": "https://github.com/chethan025/Deepockets/",
+      "borderColor": "#A43BA3",
+      "gradient": "linear-gradient(180deg, #a43ba27b, #000)",
+      "url": "https://chethan025.github.io/Deepockets/Pages/Home%20page/homepage.html",
+      "repo": "Deepockets",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS"]
+    },
+    {
+      "id": "grds1",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
+      "title": "Xagon",
+      "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
+      "github": "https://github.com/XAGON-org/Xagon-Themes",
+      "borderColor": "#ffffffba",
+      "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+      "url": "https://xagon.co.in/",
+      "repo": "Xagon-Themes",
+      "username": "XAGON-org",
+      "skills": [
+        "Shopify",
+        "Shopify Liquid",
+        "Theme Customization",
+        "Email Marketing",
+        "App Integration",
+        "Payment Integration",
+        "Product Management"
+      ]
+    },
+    {
+      "id": "grds6",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698584873499.jpg?img1",
+      "title": "Trending Sportswear",
+      "description": "I built CODSOFT’s modern landing experience with a clean, responsive HTML + CSS + SCSS setup, combining tradition and trending design aesthetics. The hero section announces a “Tradition meets Trends” theme, followed by a dynamic “Popular Brands” carousel featuring top athletic labels like PUMA, adidas, Nike, and Jordan. There’s a clear call-to-action inviting visitors to learn more or join the community via login or signup, along with dedicated sections for user reviews, brand story, and peer testimonials. The page is optimized for performance and usability, and acts as a brand gateway linking products, about us, and login flows seamlessly.",
+      "github": "https://github.com/chethan025/CODSOFT/tree/main/Landing%20Page",
+      "borderColor": "#ffffffff",
+      "gradient": "linear-gradient(145deg, #484848c7, #000)",
+      "url": "https://chethan025.github.io/CODSOFT/Landing%20Page/Pages/index.html",
+      "repo": "CODSOFT",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS"]
+    },
+    {
+      "id": "grds5",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1698589825455.jpg?img1",
+      "title": "GYM WEB",
+      "description": "I built a fully responsive gym-and-fitness landing site using clean HTML + CSS + SCSS, focusing on both visual appeal and usability. It features clearly laid out sections for classes (cardio, strength, mind-body, sports, special workouts), pricing tiers (Basic / Gold / Premium with monthly discounts), and a blog section to share fitness journeys and build community. There is also a contact form to allow visitors to reach out easily, plus pages for FAQs, privacy policy, and support. The design is polished with UI elements derived from curated free-resource assets, and everything is handcrafted by me for a cohesive and professional feel.",
+      "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Gym%20Website",
+      "borderColor": "#ffffffff",
+      "gradient": "linear-gradient(145deg, #484848c7, #000)",
+      "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Gym%20Website/index.html",
+      "repo": "NexaByte_Internship_Task",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS"]
+    },
+    {
+      "id": "grds2",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
+      "title": "Tip Calculator",
+      "description": "I built a sleek, interactive tip calculator using vanilla JavaScript, HTML, CSS and SCSS to help users quickly calculate tips and split bills. The app handles user inputs for bill amounts, tip percentage, and number of people, updating totals and per-person shares in real time. It’s designed with a clean, responsive UI and modular styles so it works smoothly on desktops and mobile devices. Everything is handcrafted for clarity, performance, and usability – no frameworks, just pure code.",
+      "github": "https://github.com/chethan025/Mini-projects/tree/main/Tip%20Calculator",
+      "borderColor": "#F7DF1E",
+      "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
+      "url": "https://chethan025.github.io/Mini-projects/Tip%20Calculator/tipcalculator.html",
+      "repo": "Mini-projects",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "id": "grds3",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTS.jpg?img1",
+      "title": "Guessing Game",
+      "description": "I created an interactive “Guess the Number” game using pure JavaScript, HTML, CSS, and SCSS, where users attempt to guess a randomly generated number within a set range. The game provides immediate feedback (“too high”, “too low”, or “correct”) and tracks the user’s score or attempt count dynamically. It features a responsive layout and a clean UI design so it works comfortably on both desktops and mobile devices. All logic is implemented without external libraries, keeping the code lightweight and easily understandable.",
+      "github": "https://github.com/chethan025/Mini-projects/tree/main/Guessing%20Game",
+      "borderColor": "#F7DF1E",
+      "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
+      "url": "https://chethan025.github.io/Mini-projects/Guessing%20Game/game.html",
+      "repo": "Mini-projects",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "id": "grds11",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img1",
+      "title": "Editor",
+      "description": "I developed a browser-based editor using plain HTML, CSS (with SCSS), and JavaScript to enable rich text and code editing features directly on the page. It supports live editing, formatting (bold, italic, lists, maybe code blocks), and possibly saving or copying content, all in a clean, responsive UI designed for both writing and simple code snippets. The editor is lightweight, dependency-free, and built for speedy performance and intuitive use. The styles and layout are modular so it adapts smoothly across device sizes.",
+      "github": "https://github.com/chethan025/Mini-projects/tree/main/Editor",
+      "borderColor": "#F7DF1E",
+      "gradient": "linear-gradient(145deg, #F7DF1E8f, #000)",
+      "url": "https://chethan025.github.io/Mini-projects/Editor/editor.html",
+      "repo": "Mini-projects",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "id": "grds9",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/1702629497005.jpeg?img2",
+      "title": "Calculator",
+      "description": "I built a lightweight web calculator using vanilla JavaScript, HTML, CSS and SCSS that lets users perform basic arithmetic operations with ease. The app handles user input, validates numbers, updates results in real time, and features a clean responsive UI for both desktop and mobile. Its design is modular and lightweight—no frameworks, no fluff—just efficient code focused on functionality and user experience.",
+      "github": "https://github.com/chethan025/NexaByte_Internship_Task/tree/main/NexaByte-org/Simple%20Calculator",
+      "borderColor": "#ffffffba",
+      "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+      "url": "https://chethan025.github.io/NexaByte_Internship_Task/NexaByte-org/Simple%20Calculator/index.html",
+      "repo": "NexaByte_Internship_Task",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "id": "grds7",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/JSMINIPROJECTSvert.jpg?img2",
+      "title": "Time Ripen",
+      "description": "I built Time Ripen, a simple web app using vanilla JavaScript, HTML, CSS, and JS that categorizes users as minor, major, or old based on their inputted age. The app provides instant feedback with a clean, responsive interface, making it easy to use on both desktop and mobile. The logic is entirely client-side, lightweight, and designed for clarity and speed. This project demonstrates basic input handling, conditional logic, and dynamic DOM updates in a user-friendly design.",
+      "github": "https://github.com/chethan025/Mini-projects/tree/main/Time%20Ripen",
+      "borderColor": "#F7DF1E",
+      "gradient": "linear-gradient(180deg, #F7DF1E8f, #000)",
+      "url": "https://chethan025.github.io/Mini-projects/Time%20Ripen/Timeripen.html",
+      "repo": "Mini-projects",
+      "username": "chethan025",
+      "skills": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "id": "grds8",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/crypto.jpg?img2",
+      "title": "Crypto Horizon",
+      "description": "I built Crypto Horizon, a web tool that helps users (especially beginners) explore cryptocurrency investment strategies in a conceptual and educational way—it’s not financial advice, just a sandbox. The app lets a visitor input a “conceptual budget” and then shows a breakdown across categories like stablecoins, major cryptocurrencies, and high‑risk meme coins, helping visualize a diversified approach. The interface is clean and responsive (HTML, CSS/SCSS, JavaScript), with dynamic updates and UI driven by real‑world crypto concepts. Overall the project showcases conditional logic, input handling, modular styles, and an educational mindset toward a volatile field.",
+      "github": "https://github.com/chethan025/cryptohorizon",
+      "borderColor": "#ffffffba",
+      "gradient": "linear-gradient(180deg, #ffffffba, #000)",
+      "url": "https://crypto-horizon.netlify.app/",
+      "repo": "cryptohorizon",
+      "username": "chethan025",
+      "skills": ["React JS", "Bootstrap", "API"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Coursera GC57YKWN3DWU.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-e0b2af40-74da-44b6-a64c-fd4416cfc6e0.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/1-b8a78ff1-b295-42d6-873a-e3faac622578.pdf"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate _ Landscape-1.pdf"
+    },
+    {
+      "id": 5,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S-codsoft-internship-certificate.pdf"
+    },
+    {
+      "id": 6,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan S Internship Completion Certificate NexaByteOrg.pdf"
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/LetsUpgrade certificate.pdf"
+    },
+    {
+      "id": 8,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/72375666311520 (1).pdf"
+    },
+    {
+      "id": 9,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391477-cdf62cd56b5c5818584780f8d3395cb9.pdf"
+    },
+    {
+      "id": 10,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/certificate-391490-4e9be3365e540e168897e50918d279ab.pdf"
+    },
+    {
+      "id": 11,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan025.pdf"
+    },
+    {
+      "id": 12,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Certificate-Chethan_S20230627-191-180a22k.pdf"
+    },
+    {
+      "id": 13,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-67-x3j1t5.pdf"
+    },
+    {
+      "id": 14,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230718-70-14rcgb8.pdf"
+    },
+    {
+      "id": 15,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230717-67-1yztneh.pdf"
+    },
+    {
+      "id": 16,
+      "title": "Full Stack Web Development",
+      "issuer": "Coursera",
+      "date": "2023-01-15",
+      "url": "https://example.com/certifications/full-stack-web-development",
+      "image": "https://chethan025.github.io/Webfolio/src/assets/images/certificates/Chethan_S20230723-69-1motc2x.pdf"
+    }
+  ],
+  "education": [
+    {
+      "skill_type": "degree",
+      "course": "Bachelor of Computer Applications (BCA)",
+      "institution": "Bangalore University",
+      "year": "2024",
+      "report_card-sem1": "https://example.com/education/btech-computer-science",
+      "report_card-sem1.2": "https://example.com/education/btech-computer-science-sem1-2",
+      "report_card-sem2": "https://example.com/education/btech-computer-science-sem2",
+      "report_card-sem2.2": "https://example.com/education/btech-computer-science-sem2-2",
+      "report_card-sem3": "https://example.com/education/btech-computer-science-sem3",
+      "report_card-sem4": "https://example.com/education/btech-computer-science-sem4",
+      "report_card-sem5": "https://example.com/education/btech-computer-science-sem5",
+      "report_card-sem6": "https://example.com/education/btech-computer-science-sem6"
+    },
+    {
+      "skill_type": "PUC",
+      "course": "Commrerce(CEBA - Computer Science, Economics, Business Studies, Accountancy)",
+      "institution": "New Baldwin Institution",
+      "year": "2021",
+      "url": "https://example.com/education/diploma-web-development"
+    },
+    {
+      "skill_type": "SSLC",
+      "course": "Secondary School Leaving Certificate",
+      "institution": "New Standard English School",
+      "year": "2019",
+      "url": "https://example.com/education/sslc"
+    }
+  ]
 }
