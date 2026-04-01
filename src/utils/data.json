@@ -296,7 +296,50 @@
             "Email Marketing",
             "App Integration",
             "Payment Integration",
-            "Product Management"
+            "Product Management",
+            "Shipping Integration"
+          ]
+        },
+        {
+          "id": "2",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
+          "title": "Fevrt.",
+          "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
+          "github": "https://github.com/XAGON-org/FEVRT",
+          "url": "https://fevrt.com/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Xagon-Themes",
+          "username": "XAGON-org",
+          "skills": [
+            "Shopify",
+            "Shopify Liquid",
+            "Theme Customization",
+            "Email Marketing",
+            "App Integration",
+            "Payment Integration",
+            "Product Management",
+            "Shipping Integration"
+          ]
+        },
+        {
+          "id": "3",
+          "image": "https://chethan025.github.io/Webfolio/src/assets/images/cards/Xagon.jpg?img3",
+          "title": "Tanira Jewels",
+          "description": "Xagon is a full-featured e-commerce platform I developed using Shopify with custom Liquid code for advanced theme customization and dynamic storefront features. It offers a smooth shopping experience for Gen Z fashion and anime-inspired merchandise, complete with Judge.me reviews, a Joy loyalty program, and a custom referral system that rewards users when referred customers sign up. Payments are handled securely through Razorpay, while DELIVERY manages shipping logistics. I integrated Google Analytics and Google Ads for performance tracking and marketing, with Instagram as a major engagement channel. The store also includes email-based discounts, membership plans with Razorpay subscriptions, and early-access perks for members synced via my Xbase Integration App. Every element—from responsive design to metafield-driven data tracking—was optimized to make Xagon a transparent, scalable, and community-driven shopping ecosystem.",
+          "github": "https://github.com/chethan025/Shopify/tree/main/tanirajewels",
+          "url": "https://tanirajewels.in/",
+          "demo": "https://chethan025.github.io/Webfolio/src/assets/vids/temp.mp4",
+          "repo": "Shopify",
+          "username": "chethan025",
+          "skills": [
+            "Shopify",
+            "Shopify Liquid",
+            "Theme Customization",
+            "Email Marketing",
+            "App Integration",
+            "Payment Integration",
+            "Product Management",
+            "Shipping Integration"
           ]
         }
       ]

@@ -593,7 +593,7 @@ export const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
       <div
         ref={ref}
         className={cn(
-          "absolute w-25 h-32 rounded-lg overflow-hidden shadow-xl",
+          "absolute w-32 h-32 rounded-lg overflow-hidden shadow-xl",
           "bg-card border border-border",
           "cursor-pointer hover:ring-2 hover:ring-accent/50",
           isSelected && "opacity-0",
