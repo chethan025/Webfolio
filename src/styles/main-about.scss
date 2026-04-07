@@ -31,6 +31,7 @@
   grid-row-start: 1;
   padding: 2rem;
   background: linear-gradient(180deg, #eee 0%, #515050 162%);
+  min-width: 50vw;
   // z-index: -1;
 }
 .grlnk{
@@ -62,6 +63,7 @@
     margin-right: 5px;
     justify-content: space-around;
     height: 12 * 7 + 6 * 6px;
+    margin-top: 10px;
   }
   .gcwkds {
     font-size: 10px;
@@ -72,15 +74,15 @@
     flex-direction: column;
   }
   .gcmtnm {
-    width: 14px;
+    width: 15px;
     text-align: center;
     font-size: 10px;
     margin: 0.5px;
     color: #e4ebe6;
   }
   .gccntbc {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     margin: 1.5px;
     border-radius: 2px;
   }
@@ -93,7 +95,7 @@
 
 .grdimg {
   // width:18vw;
-  height: 8.55vw;
+  height: 7.2vw;
 }
 
 .self-intro {
@@ -128,11 +130,12 @@
   grid-row: span 2 / span 2;
   grid-column-start: 1;
   grid-row-start: 2;
+  padding: 20px;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 26px;
   padding: 28px;
   position: relative;
@@ -141,7 +144,7 @@
     background: #111;
     border: 1px solid #333;
     border-radius: 12px;
-    padding: 16px;
+    padding: 22px 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,8 +155,8 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
   .skill-logo {
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 32px;
+    max-height: 32px;
     width: auto;
     height: auto;
     margin: auto;
@@ -168,7 +171,7 @@
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 26px;
   padding: 28px;
 
@@ -176,7 +179,7 @@
     background: #111;
     border: 1px solid #333;
     border-radius: 12px;
-    padding: 16px;
+    padding: 22px 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,8 +190,8 @@
   }
 
   .skill-logo {
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 32px;
+    max-height: 32px;
     margin: auto;
   }
 }
@@ -330,6 +333,7 @@
       margin-top: 12px;
       justify-content: space-around;
       height: 8 * 6 + 5 * 6px;
+      margin-top: 10px;
     }
     .gcwkds {
       font-size: 8px;
@@ -358,8 +362,8 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 0 24px 24px 24px;
     .skill-logo {
-      max-width: 26px;
-      max-height: 26px;
+      max-width: 32px;
+      max-height: 32px;
     }
     button {
       padding: 16px;
