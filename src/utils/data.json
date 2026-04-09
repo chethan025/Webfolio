@@ -48,7 +48,30 @@
         "type": "Lanquage",
         "skill_type": "tools"
       },
-
+      {
+        "name": "Google Tag Manager",
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-tag-manager-svgrepo-com.png",
+        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "projects": ["Xagon"],
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Google Merchant Center",
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-merchant-center.png",
+        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "projects": ["Xagon"],
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Google Analytics",
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-analytics.png",
+        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "projects": ["Xagon"],
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
       {
         "name": "React",
         "description": "Builds fast, responsive, and interactive frontends with React, focusing on reusable components and smooth user interfaces.",
@@ -58,57 +81,19 @@
         "skill_type": "tools"
       },
       {
-        "name": "Node.js",
-        "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
-        "projects": ["Xbase"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
+        "name": "SCSS",
+        "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
+        "projects": ["Webfolio"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/scss.png",
         "type": "Lanquage",
         "skill_type": "tools"
       },
       {
-        "name": "Express.js",
-        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
-        "projects": ["Xbase"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Vector.png",
+        "name": "Tailwind CSS",
+        "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
+        "projects": ["Webfolio"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/tailwind-css.png",
         "type": "Lanquage",
-        "skill_type": "tools"
-      },
-      {
-        "name": "MongoDB",
-        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
-        "projects": ["Xbase"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mongodb.png",
-        "type": "software",
-        "skill_type": "tools"
-      },
-      {
-        "name": "Git",
-        "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
-        "projects": [
-          "Xagon",
-          "Webfolio",
-          "Deepockets",
-          "Gym website",
-          "Mini-projects",
-          "Calculator"
-        ],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/git.png",
-        "type": "software",
-        "skill_type": "tools"
-      },
-      {
-        "name": "GitHub",
-        "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
-        "projects": [
-          "Xagon",
-          "Webfolio",
-          "Deepockets",
-          "Gym website",
-          "Mini-projects",
-          "Calculator"
-        ],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/github-white.png",
-        "type": "software",
         "skill_type": "tools"
       },
       {
@@ -142,14 +127,6 @@
         "skill_type": "tools"
       },
       {
-        "name": "SCSS",
-        "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
-        "projects": ["Webfolio"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/scss.png",
-        "type": "Lanquage",
-        "skill_type": "tools"
-      },
-      {
         "name": "JavaScript",
         "description": "Develops dynamic web experiences with JavaScript, applying modern ES6+ practices for better performance and clarity.",
         "projects": ["Mini-projects", "Calculator", "Xagon"],
@@ -158,27 +135,122 @@
         "skill_type": "tools"
       },
       {
+        "name": "Node.js",
+        "description": "Develops scalable backend services and APIs using Node.js, ensuring efficiency, speed, and reliability.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/nodejs.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Express.js",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/Vector.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Python",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/python.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Docker",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/docker.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Prisma",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/prisma.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "PostgreSQL",
+        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/postgresql.png",
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-cloud.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Firebase",
+        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/firebase.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mongodb.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Linux",
+        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "projects": ["Xbase"],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/linux.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "Git",
+        "description": "Proficient in version control using Git for efficient code tracking, branching, and collaboration.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/git.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      {
+        "name": "GitHub",
+        "description": "Experienced with GitHub for managing repositories, contributing to projects, and maintaining clean, documented codebases.",
+        "projects": [
+          "Xagon",
+          "Webfolio",
+          "Deepockets",
+          "Gym website",
+          "Mini-projects",
+          "Calculator"
+        ],
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/github-white.png",
+        "type": "software",
+        "skill_type": "tools"
+      },
+      
+      {
         "name": "Figma",
         "description": "Designs clean, user-centered interfaces and prototypes, bridging the gap between UI design and front-end development.",
         "projects": ["Xagon", "Webfolio", "Deepockets", "Gym website"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/figma.png",
         "type": "software",
-        "skill_type": "tools"
-      },
-      {
-        "name": "PHP",
-        "description": "Builds and maintains dynamic websites and server-side logic with PHP, including integration with MySQL databases.",
-        "projects": ["upcoming project"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/php.png",
-        "type": "Lanquage",
-        "skill_type": "tools"
-      },
-      {
-        "name": "MySQL",
-        "description": "Designs relational databases and writes optimized queries for data-driven applications.",
-        "projects": ["upcoming project"],
-        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/mysql.png",
-        "type": "Lanquage",
         "skill_type": "tools"
       },
       {
