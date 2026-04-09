@@ -40,6 +40,14 @@
         "type": "Lanquage",
         "skill_type": "tools"
       },
+      {
+        "name": "Google Search Console",
+        "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/search-console-icon.png",
+        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "projects": ["Xagon"],
+        "type": "Lanquage",
+        "skill_type": "tools"
+      },
 
       {
         "name": "React",
