@@ -43,7 +43,7 @@
       {
         "name": "Google Search Console",
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/search-console-icon.png",
-        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "description": "Set up, monitor, and optimize website indexing, search performance, keyword visibility, and technical SEO health across Google Search.",
         "projects": ["Xagon"],
         "type": "Lanquage",
         "skill_type": "tools"
@@ -51,7 +51,7 @@
       {
         "name": "Google Tag Manager",
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-tag-manager-svgrepo-com.png",
-        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "description": "Set up, manage, and monitor tracking tags, custom events, and marketing scripts without cluttering the core codebase.",
         "projects": ["Xagon"],
         "type": "Lanquage",
         "skill_type": "tools"
@@ -59,7 +59,7 @@
       {
         "name": "Google Merchant Center",
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-merchant-center.png",
-        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "description": "Set up, manage, and monitor product feeds, listing approvals, and shopping visibility to improve product discoverability on Google.",
         "projects": ["Xagon"],
         "type": "Lanquage",
         "skill_type": "tools"
@@ -67,7 +67,7 @@
       {
         "name": "Google Analytics",
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-analytics.png",
-        "description": "Skilled in Liquid templating for creating dynamic Shopify themes, custom sections, metafields, and personalized storefront functionality.",
+        "description": "Set up and monitor user behavior, traffic sources, conversion funnels, and performance insights to support smarter business decisions.",
         "projects": ["Xagon"],
         "type": "Lanquage",
         "skill_type": "tools"
@@ -90,7 +90,7 @@
       },
       {
         "name": "Tailwind CSS",
-        "description": "Uses SCSS to write cleaner, modular, and more maintainable stylesheets for scalable frontend projects.",
+        "description": "Create responsive, utility-first interfaces quickly while maintaining design consistency, clean structure, and efficient frontend styling workflows.",
         "projects": ["Webfolio"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/tailwind-css.png",
         "type": "Lanquage",
@@ -152,7 +152,7 @@
       },
       {
         "name": "Python",
-        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "description": "Use Python for automation, scripting, backend utilities, and AI-related workflows to improve productivity and development flexibility.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/python.png",
         "type": "Lanquage",
@@ -160,7 +160,7 @@
       },
       {
         "name": "Docker",
-        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "description": "Set up and manage containerized development environments for consistent builds, easier deployment, and smoother project scalability.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/docker.png",
         "type": "Lanquage",
@@ -168,7 +168,7 @@
       },
       {
         "name": "Prisma",
-        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "description": "Simplify database operations with type-safe ORM workflows, clean schema management, and efficient backend data handling practices.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/prisma.png",
         "type": "Lanquage",
@@ -176,7 +176,7 @@
       },
       {
         "name": "PostgreSQL",
-        "description": "Implements clean and modular RESTful APIs with Express.js, integrating seamlessly with databases and frontend applications.",
+        "description": "Design, manage, and query reliable relational databases with strong structure, performance, and data integrity for backend systems.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/postgresql.png",
         "type": "Lanquage",
@@ -184,7 +184,7 @@
       },
       {
         "name": "Google Cloud Platform",
-        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "description": "Deploy, manage, and monitor cloud infrastructure, backend services, and hosted applications with scalable and production-ready workflows.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/google-cloud.png",
         "type": "software",
@@ -192,7 +192,7 @@
       },
       {
         "name": "Firebase",
-        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "description": "Build and manage real-time applications using authentication, Firestore, hosting, and serverless backend services for faster development.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/firebase.png",
         "type": "software",
@@ -208,7 +208,7 @@
       },
       {
         "name": "Linux",
-        "description": "Designs and manages flexible NoSQL databases for fast data retrieval and smooth scalability in full-stack applications.",
+        "description": "Work confidently with Linux systems for development, server management, deployment workflows, automation, and backend environment control.",
         "projects": ["Xbase"],
         "logo": "https://chethan025.github.io/Webfolio/src/assets/images/logo/linux.png",
         "type": "software",
