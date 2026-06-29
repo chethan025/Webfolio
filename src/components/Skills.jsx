@@ -37,7 +37,7 @@ export default function SkillSection() {
       <div
         ref={ref}
         className={
-          "abc Skills " +
+          "abc shadow-md Skills " +
           (visible ? "animate__animated animate__fadeInDown" : "")
         }
         id="skills"

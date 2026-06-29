@@ -8,10 +8,10 @@ const ProjectsData = data.projects;
 export default function Project() {
   return (
     <div id="projects" className={"section projects-section "}>
-      <h2 className="text-2xl font-bold">Projects</h2>
-      <main className="min-h-screen bg-background flex items-center justify-center w-full">
+      <h2 className="text-2xl text-center font-bold">Projects</h2>
+      <main className=" bg-background flex items-center justify-center w-full">
         {/* Main content */}
-        <section className="max-w-8xl mx-auto px-4 py-16">
+        <section className="max-w-10xl mx-auto px-4 py-16">
           <div className="gingerpotato">
             {ProjectsData.map((folder) => (
               <AnimatedFolder

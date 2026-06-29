@@ -98,8 +98,8 @@ export default function GithubContributions() {
         style={{
           marginBottom: 16,
           padding: 4,
-          backgroundColor: "#232925",
-          color: "#c9d1d9",
+          backgroundColor: "#c7c7c700",
+          color: "#2b2b2b",
           border: "1px solid #30363d07",
           borderRadius: 4,
           justifySelf: "end",

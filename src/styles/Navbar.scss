@@ -4,20 +4,32 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 1rem 2rem;
+  width: 98%;
+  padding: 1.6rem 2rem;
   background-color: transparent;
     border-radius: main.$btnbdrds2;
   transition: background-color 0.3s ease;
   z-index: 1000;
+  margin: .6rem 0;
 
   &.solid {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(41, 41, 41, 0.75);
     backdrop-filter: blur(5px);
+    .desktop-menu {
+
+    li {
+
+      a {
+        color: #c7c7c7;
+        border: 1px solid #c7c7c7;
+
+        
+      }
+    }
+  }
   }
 
   .nav-inner {
-    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: center ;
@@ -33,7 +45,7 @@
       list-style: none;
 
       a {
-       color: main.$color;
+        color: main.$color;
         border: main.$btnbrdr1;
         border-radius: main.$btnbdrds1;
         text-decoration: none;
@@ -68,8 +80,8 @@
       display: none; // now ONLY desktop menu is hidden on mobile
     }
     .nav-inner {
-justify-content: start ;
-}
+      justify-content: start ;
+    }
 
     .hamburger {
       display: block; // now hamburger actually shows

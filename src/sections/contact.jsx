@@ -4,6 +4,7 @@ import "../styles/contact.scss"
 export default function contact() {
   return (
     <>
+    
     <Contact />
     
     </>

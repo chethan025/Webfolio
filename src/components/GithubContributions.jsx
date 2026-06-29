@@ -8,7 +8,7 @@ export default function GithubC() {
   const { ref, visible } = useScrollReveal(0.5);
   return (
     <>
-      <div ref={ref} className={"abc github-contributions " + (visible ? "animate__animated animate__fadeInRight" : "")} id="github">
+      <div ref={ref} className={"abc shadow-md github-contributions " + (visible ? "animate__animated animate__fadeInRight" : "")} id="github">
         <h2 className="text-xl font-semibold mb-2">
           GitHub Contributions
         </h2>

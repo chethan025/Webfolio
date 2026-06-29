@@ -68,8 +68,8 @@ export function AnimatedFolder({ title, projects, className }: AnimatedFolderPro
           className,
         )}
         style={{
-          minWidth: "22%",
-          minHeight: "42%",
+          minWidth: "92%",
+          minHeight: "52%",
           perspective: "1000px",
         }}
         onMouseEnter={() => setIsHovered(true)}

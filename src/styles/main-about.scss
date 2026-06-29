@@ -17,8 +17,12 @@
   margin: 1rem 0;
   height: 36vw;
 }
+.about{
+  background: linear-gradient(135deg, rgba(248, 248, 248, 0.48) 0%, rgba(0, 0, 0, 0.15) 86%);
+
+}
 .abc {
-  background: #eee;
+  background: linear-gradient(135deg, rgba(248, 248, 248, 0.48) 0%, rgba(0, 0, 0, 0.15) 86%);
   color: #000;
   border-radius: 16px;
   width: 100%;
@@ -31,7 +35,7 @@
   grid-column-start: 2;
   grid-row-start: 1;
   padding: 2rem;
-  background: linear-gradient(180deg, #eee 0%, #515050 162%);
+  // background: linear-gradient(135deg, rgba(248, 248, 248, 0.48) 0%, rgba(0, 0, 0, 0.15) 86%);
   min-width: 50vw;
   // z-index: -1;
 }

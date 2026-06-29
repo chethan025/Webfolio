@@ -3,9 +3,9 @@
 @use "./mixins" as *;
 
 /* color */
-$bgclr : #000;
-$color: #fff;
-$navbg: #2b2b2b;
+$bgclr : #c7c7c7;
+$color: #2b2b2b;
+$navbg: #c7c7c7;
 
 /* padding */
 $btnpdn1: 0.7rem 3rem;
@@ -46,8 +46,9 @@ body{
     opacity: 0;
 }
 .mainappcontainer{
-    background:radial-gradient(27.25% 34.55% at 50% 40%, rgba(255, 255, 255, 0.10) 0%, rgba(225, 233, 230, 0.01) 100%);
-
+    // background:radial-gradient(27.25% 34.55% at 50% 40%, rgba(255, 255, 255, 0.10) 0%, rgba(225, 233, 230, 0.01) 100%);
+    background: #c7c7c7;
+    color: #2b2b2b;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -62,7 +63,8 @@ body{
 }
 
 .mainappcontainer{
-    background:radial-gradient(52.25% 44.55% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(225, 233, 230, 0.01) 88%);
-
+    // background:radial-gradient(52.25% 44.55% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(225, 233, 230, 0.01) 88%);
+    background: #c7c7c7;
+    color: #2b2b2b;
 }
 }

@@ -19,7 +19,8 @@ function Contact() {
   return (
     <>
     <div id='contact' className='section contact-container'>
-        <h2>Contact me</h2>
+              <h2 className="text-2xl text-center font-bold">Contact ME!</h2>
+
         <form className='c-form' onSubmit={onSubmit}>
             <label className='c-fnm-lbl'  htmlFor="fnm">Front Name:</label>
             <input className='gh c-fnm-inpt' placeholder="First Name" type="text" name="fnm" id="fnm" />

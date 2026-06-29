@@ -8,7 +8,7 @@ export default function About() {
     const { ref, visible } = useScrollReveal(0.5);
     return (
         <>
-            <div ref={ref} className={"abc about self-intro " + (visible ? "animate__animated animate__fadeInDown" : "")} id="about">
+            <div ref={ref} className={"abc shadow-md about self-intro " + (visible ? "animate__animated animate__fadeInDown" : "")} id="about">
                 <h2 className='about-header'>{data.personal_detailes.name}</h2>
                 <p className='about-text'>{data.about.description}</p>
                 <div className='about-contact'>
