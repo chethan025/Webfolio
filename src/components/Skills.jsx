@@ -37,12 +37,12 @@ export default function SkillSection() {
       <div
         ref={ref}
         className={
-          "abc shadow-md Skills " +
+          "abc Skills " +
           (visible ? "animate__animated animate__fadeInDown" : "")
         }
         id="skills"
       >
-        <h2>Skills</h2>
+        <h2 className="text-xl font-semibold mb-2">Skills</h2>
 
         <div className="skills-container">
           {skills.map((skill, index) => (
@@ -51,6 +51,7 @@ export default function SkillSection() {
               onClick={(e) => handleSkillClick(skill, e)}
               onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
               onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+              className="hover:shadow-md"
             >
               <img className="skill-logo" alt={skill.name} src={skill.logo} />
             </button>

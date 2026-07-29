@@ -30,11 +30,18 @@
   opacity: 0;
 }
 
+.Skills{
+  background: #00000000 !important;
+  border: 1px solid #000;
+}
+
 .github-contributions {
   grid-row: span 3 / span 3;
   grid-column-start: 2;
   grid-row-start: 1;
   padding: 2rem;
+  border: 1px solid #000;
+  background: #00000000 !important;
   // background: linear-gradient(135deg, rgba(248, 248, 248, 0.48) 0%, rgba(0, 0, 0, 0.15) 86%);
   min-width: 50vw;
   // z-index: -1;
@@ -43,9 +50,10 @@
   border-radius: 8px;
   padding: 12px;
   width: 220px;
-  background-color: #101411;
+  border: 1px solid #000;
+  background: #ffffff00;
   text-decoration: none;
-  color: #ddd;
+  color: #111;
   transition: transform 0.1s;
   .grh3{
     font-size: 16px; 
@@ -54,7 +62,7 @@
 }
 
 .gccc {
-  background-color: #232925;
+  background: linear-gradient(175deg, rgba(248, 248, 248, 0.48) 27%, rgba(0, 0, 0, 0.15) 100%);
   padding: 1.5rem;
     display: grid;
   border-radius: 16px;
@@ -72,7 +80,7 @@
   }
   .gcwkds {
     font-size: 10px;
-    color: #e4ebe6;
+    color: #111;
   }
   .gcmnts {
     display: flex;
@@ -83,7 +91,7 @@
     text-align: center;
     font-size: 10px;
     margin: 0.5px;
-    color: #e4ebe6;
+    color: #111;
   }
   .gccntbc {
     width: 13px;
@@ -149,7 +157,7 @@
 
   button {
     background: #111;
-    border: 1px solid #333;
+    // border: 1px solid #333;
     border-radius: 12px;
     padding: 14px 10px;
     display: flex;
@@ -159,7 +167,7 @@
     transition: 0.2s;
     position: relative;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    // box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
   .skill-logo {
     max-width: 42px;
@@ -185,8 +193,8 @@
   overflow: auto;
 
   button {
-    background: #111;
-    border: 1px solid #333;
+    background: linear-gradient(150deg, rgba(248, 248, 248, 0.48) 17%, rgba(0, 0, 0, 0.15) 99%);
+    // border: 1px solid #333;
     border-radius: 12px;
     padding: 14px 10px;
     display: flex;
@@ -195,7 +203,7 @@
     cursor: pointer;
     transition: 0.2s;
     color: #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .skill-logo {
